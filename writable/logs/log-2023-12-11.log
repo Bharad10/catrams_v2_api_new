@@ -1,0 +1,255 @@
+CRITICAL - 2023-12-11 10:42:56 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 11:17:58 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 11:18:39 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 11:19:12 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 11:19:56 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 11:47:15 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 11:51:11 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 11:51:37 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:20:07 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:20:18 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:22:06 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:22:29 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:24:27 --> Undefined array key "Authorization"
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 209.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Authorization"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestrackerControler.php', 209)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:32:53 --> Call to a member function move() on null
+in APPPATH\Controllers\System\BannerController.php on line 290.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->ban_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:34:04 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 230.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:34:47 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 230.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:34:58 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 230.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:35:51 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 230.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:36:38 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 230.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:36:58 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 230.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:37:54 --> Call to a member function move() on null
+in APPPATH\Controllers\System\BannerController.php on line 290.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->ban_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:38:07 --> Call to a member function move() on null
+in APPPATH\Controllers\System\BannerController.php on line 290.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->ban_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:38:28 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 230.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:38:38 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 230.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:38:52 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 230.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:39:30 --> Call to a member function move() on null
+in APPPATH\Controllers\System\BannerController.php on line 290.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->ban_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:41:45 --> Call to a member function move() on null
+in APPPATH\Controllers\System\BannerController.php on line 290.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->ban_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:42:47 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:42:57 --> Call to a member function move() on null
+in APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->tlrq_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:43:40 --> Call to a member function move() on null
+in APPPATH\Controllers\System\BannerController.php on line 290.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->ban_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:44:30 --> Call to a member function move() on null
+in APPPATH\Controllers\System\BannerController.php on line 290.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->ban_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:45:11 --> Call to a member function move() on null
+in APPPATH\Controllers\System\BannerController.php on line 290.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->ban_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:50:08 --> Call to a member function move() on null
+in APPPATH\Controllers\System\BannerController.php on line 290.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->ban_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:52:39 --> Call to a member function move() on null
+in APPPATH\Controllers\System\BannerController.php on line 290.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->ban_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 12:53:07 --> Call to a member function move() on null
+in APPPATH\Controllers\System\BannerController.php on line 290.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->ban_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-11 13:03:07 --> CodeIgniter\Model::doProtectFieldsForInsert(): Argument #1 ($data) must be of type array, string given, called in C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php on line 856
+in SYSTEMPATH\Model.php on line 729.
+ 1 SYSTEMPATH\BaseModel.php(856): CodeIgniter\Model->doProtectFieldsForInsert('Trade in offer Tool1')
+ 2 APPPATH\Controllers\System\BannerController.php(147): CodeIgniter\BaseModel->insertBatch([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

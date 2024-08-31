@@ -1,0 +1,48 @@
+CRITICAL - 2024-02-22 12:58:13 --> Undefined array key "rent_per_day"
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 1635.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(1635): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rent_per_day"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 1635)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->recommended_tool_Det()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-02-22 13:00:26 --> Undefined array key "rent_advance_amount"
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 1637.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(1637): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rent_advance_amount"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 1637)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->recommended_tool_Det()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-02-22 14:27:50 --> Undefined property: stdClass::$advp_id
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 1717.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(1717): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$advp_id', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 1717)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->recommended_tool_accept()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-02-22 14:31:06 --> Attempt to read property "tool_id" on array
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 1731.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(1731): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tool_id" on array', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 1731)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->recommended_tool_accept()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-02-22 14:32:26 --> Attempt to read property "tool_id" on array
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 1731.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(1731): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tool_id" on array', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 1731)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->recommended_tool_accept()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-02-22 14:33:48 --> Undefined variable $custModel
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 1815.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(1815): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $custModel', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 1815)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->recommended_tool_accept()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

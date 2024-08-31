@@ -1,0 +1,82 @@
+CRITICAL - 2023-12-13 08:16:55 --> array_merge(): Argument #1 must be of type array, int given
+in APPPATH\Controllers\DashBoard\DashBoardController.php on line 73.
+ 1 APPPATH\Controllers\DashBoard\DashBoardController.php(73): array_merge(0, 1)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DashBoard\DashBoardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard\DashBoardController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-13 08:18:48 --> Undefined variable $open_ticket_tool
+in APPPATH\Controllers\DashBoard\DashBoardController.php on line 75.
+ 1 APPPATH\Controllers\DashBoard\DashBoardController.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $open_ticket_tool', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\DashBoard\\DashBoardController.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DashBoard\DashBoardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard\DashBoardController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-13 10:01:07 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\System/UsersNotificationController::clear_notification"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\System/UsersNotificationController::clear_notification')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('clear_notification')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('clear_notification/')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-13 10:01:38 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\System/UsersNotificationController::clear_notification"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\System/UsersNotificationController::clear_notification')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('clear_notification')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('clear_notification/')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-13 10:01:41 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\System/UsersNotificationController::clear_notification"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\System/UsersNotificationController::clear_notification')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('clear_notification')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('clear_notification/')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-13 10:01:43 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\System/UsersNotificationController::clear_notification"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\System/UsersNotificationController::clear_notification')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('clear_notification')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('clear_notification/')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-13 11:00:10 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\System\UsersNotificationController.php(159): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\UsersNotificationController->clear_notification()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UsersNotificationController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-13 11:00:29 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\System\UsersNotificationController.php(159): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\UsersNotificationController->clear_notification()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UsersNotificationController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-13 11:08:19 --> The index ("") for updateBatch() is missing in the data: 1
+in SYSTEMPATH\BaseModel.php on line 1003.
+ 1 APPPATH\Controllers\System\UsersNotificationController.php(159): CodeIgniter\BaseModel->updateBatch([...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\UsersNotificationController->clear_notification()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UsersNotificationController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

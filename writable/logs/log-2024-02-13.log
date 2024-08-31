@@ -1,0 +1,50 @@
+CRITICAL - 2024-02-13 10:56:52 --> Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 136.
+ 1 APPPATH\Config\Commonutils.php(30): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJEaWdpdGFsIFNlcnZpY2UiLCJhdWQiOiJjdXN0b21lciIsInN1YiI6IkN1c3RvbWVyIHZlcmlmaWNhdGlvbiIsImlhdCI6MTcwNzc0Nzc5MSwidWlkIjo1OX0.QC94IC5At3m3qUBkhJYJcp1PvV_IxKg2XuXyF7bODCA', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(691): Config\Commonutils->decode_jwt_token('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJEaWdpdGFsIFNlcnZpY2UiLCJhdWQiOiJjdXN0b21lciIsInN1YiI6IkN1c3RvbWVyIHZlcmlmaWNhdGlvbiIsImlhdCI6MTcwNzc0Nzc5MSwidWlkIjo1OX0.QC94IC5At3m3qUBkhJYJcp1PvV_IxKg2XuXyF7bODCA')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-02-13 11:18:35 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\ServiceRequest/ServiceRequestMasterController::fetch_service_pack"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\ServiceRequest/ServiceRequestMasterController::fetch_service_pack')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('fetch_service_pack')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('fetch_service_pack')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-02-13 11:30:15 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\System\ServiceMasterController.php on line 93.
+ 1 APPPATH\Controllers\System\ServiceMasterController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\System\\ServiceMasterController.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\ServiceMasterController->show('[object Object]')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ServiceMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-02-13 14:14:02 --> Undefined property: stdClass::$srm_id
+in APPPATH\Controllers\System\ServiceMasterController.php on line 216.
+ 1 APPPATH\Controllers\System\ServiceMasterController.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$srm_id', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\System\\ServiceMasterController.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\ServiceMasterController->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ServiceMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-02-13 14:14:30 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\System\ServiceMasterController.php on line 220.
+ 1 APPPATH\Controllers\System\ServiceMasterController.php(220): array_push(null, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\ServiceMasterController->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ServiceMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-02-13 14:14:53 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\System\ServiceMasterController.php on line 220.
+ 1 APPPATH\Controllers\System\ServiceMasterController.php(220): array_push(null, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\ServiceMasterController->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ServiceMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

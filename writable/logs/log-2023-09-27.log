@@ -1,0 +1,27 @@
+CRITICAL - 2023-09-27 12:34:53 --> Too few arguments to function App\Controllers\Login::user_login(), 0 passed in C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Login.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->user_login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-09-27 13:24:12 --> Invalid file: "test.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('test.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('test', [], true)
+ 3 APPPATH\Controllers\Login.php(16): view('test')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-09-27 13:25:24 --> Invalid file: "test.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('test.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('test', [], true)
+ 3 APPPATH\Controllers\Login.php(16): view('test')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->user_login()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

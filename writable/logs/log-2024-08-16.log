@@ -1,0 +1,56 @@
+CRITICAL - 2024-08-16 15:22:14 --> Cannot access offset of type string on string
+in APPPATH\Controllers\System\UsersNotificationController.php on line 314.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2551): App\Controllers\System\UsersNotificationController->create_us_notification([...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->create_service_chat()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-08-16 15:26:55 --> Cannot access offset of type string on string
+in APPPATH\Controllers\System\UsersNotificationController.php on line 314.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2551): App\Controllers\System\UsersNotificationController->create_us_notification([...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->create_service_chat()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-08-16 15:27:18 --> Cannot access offset of type string on string
+in APPPATH\Controllers\System\UsersNotificationController.php on line 314.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2551): App\Controllers\System\UsersNotificationController->create_us_notification([...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->create_service_chat()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-08-16 15:28:27 --> Cannot access offset of type string on string
+in APPPATH\Controllers\System\UsersNotificationController.php on line 314.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2551): App\Controllers\System\UsersNotificationController->create_us_notification([...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->create_service_chat()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-08-16 15:30:11 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 2551.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2551): array_push(null, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->create_service_chat()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-08-16 18:50:49 --> Undefined property: stdClass::$quantity
+in APPPATH\Controllers\System\ToolMasterController.php on line 305.
+ 1 APPPATH\Controllers\System\ToolMasterController.php(305): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$quantity', 'D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\app\\Controllers\\System\\ToolMasterController.php', 305)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->update_tool_details()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-08-16 18:57:58 --> Undefined property: stdClass::$quantity
+in APPPATH\Controllers\System\ToolMasterController.php on line 305.
+ 1 APPPATH\Controllers\System\ToolMasterController.php(305): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$quantity', 'D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\app\\Controllers\\System\\ToolMasterController.php', 305)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->update_tool_details()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')

@@ -1,0 +1,192 @@
+CRITICAL - 2024-05-09 17:48:52 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 17:50:01 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 17:50:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 17:50:18 --> CodeIgniter\HTTP\IncomingRequest::getFile(): Argument #1 ($fileID) must be of type string, null given, called in D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\app\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 900.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\HTTP\IncomingRequest->getFile(null)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 17:50:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 17:51:52 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 17:52:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 17:53:34 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 17:53:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 17:54:34 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 17:55:24 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 17:55:47 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 18:02:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 18:02:48 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 18:04:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 18:06:47 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 18:07:04 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 18:07:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 18:08:12 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 18:09:44 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 18:09:51 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 18:10:00 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 18:12:15 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-09 18:12:30 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1594.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1594): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1594)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->actvt_serm_rq()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

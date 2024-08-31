@@ -1,0 +1,525 @@
+CRITICAL - 2023-11-15 06:49:51 --> Undefined variable $tool_req_fetch
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 812.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(812): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tool_req_fetch', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 812)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_details()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-15 10:26:33 --> Call to a member function move() on null
+in APPPATH\Controllers\Customer\CustomerMasterController.php on line 297.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Customer\CustomerMasterController->profilpic_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomerMasterController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-15 10:26:57 --> Call to a member function move() on null
+in APPPATH\Controllers\Customer\CustomerMasterController.php on line 297.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Customer\CustomerMasterController->profilpic_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomerMasterController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-15 11:08:33 --> Undefined variable $response
+in APPPATH\Controllers\Approval\ApprovalmasterControler.php on line 96.
+ 1 APPPATH\Controllers\Approval\ApprovalmasterControler.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Approval\\ApprovalmasterControler.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Approval\ApprovalmasterControler->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approval\ApprovalmasterControler))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-15 11:21:16 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Approval\ApprovalmasterControler.php(105): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Approval\ApprovalmasterControler->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approval\ApprovalmasterControler))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-15 11:23:28 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Approval\ApprovalmasterControler.php(106): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Approval\ApprovalmasterControler->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approval\ApprovalmasterControler))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-15 13:13:10 --> Attempt to read property "tool_request_id" on string
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 320.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(320): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tool_request_id" on string', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 320)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_accept()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-11-15 13:29:41 --> mysqli_sql_exception: Column 'trt_notes' cannot be null in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\ToolRequest\ToolRequestrackerControler.php(121): CodeIgniter\Model->insert(Array)
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->update()
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+#10 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#12 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#13 {main}
+CRITICAL - 2023-11-15 13:29:41 --> Column 'trt_notes' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tool_request_tracker` (`trt_rq_id`, `trt_type`, `trt_notes`, `trt_url`) VALUES (:trt_rq_id:, :trt_type:, :trt_notes:, :trt_url:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\ToolRequest\ToolRequestrackerControler.php(121): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestrackerControler->update()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestrackerControler))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-15 15:49:32 --> Attempt to read property "tool_request_id" on string
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 320.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(320): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tool_request_id" on string', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 320)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_accept()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-15 16:47:41 --> Undefined variable $tool_req_fetch
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 834.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(834): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tool_req_fetch', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 834)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_details()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-11-15 18:09:20 --> mysqli_sql_exception: Column 'cstm_phone' cannot be null in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\Auth\PreAuthentication.php(273): CodeIgniter\Model->insert(Array)
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->customer_signup()
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+#10 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#12 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#13 {main}
+CRITICAL - 2023-11-15 18:09:20 --> Column 'cstm_phone' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customer_master` (`cstm_name`, `cstm_email`, `cstm_country_code`, `cstm_phone`, `cstm_cstr_id`, `cstm_dealer_name`) VALUES (:cstm_name:, :cstm_email:, :cstm_country_code:, :cstm_phone:, :cstm_cstr_id:, :cstm_dealer_name:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Auth\PreAuthentication.php(273): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->customer_signup()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-11-15 18:12:20 --> mysqli_sql_exception: Column 'cstm_phone' cannot be null in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\Auth\PreAuthentication.php(273): CodeIgniter\Model->insert(Array)
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->customer_signup()
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+#10 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#12 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#13 {main}
+CRITICAL - 2023-11-15 18:12:20 --> Column 'cstm_phone' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customer_master` (`cstm_name`, `cstm_email`, `cstm_country_code`, `cstm_phone`, `cstm_cstr_id`, `cstm_dealer_name`) VALUES (:cstm_name:, :cstm_email:, :cstm_country_code:, :cstm_phone:, :cstm_cstr_id:, :cstm_dealer_name:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Auth\PreAuthentication.php(273): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->customer_signup()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-15 20:58:34 --> Undefined variable $tool_req_fetch
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 834.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(834): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tool_req_fetch', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 834)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_details()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-15 21:26:22 --> Attempt to read property "tool_request_id" on string
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 321.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tool_request_id" on string', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 321)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_accept()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-15 21:29:32 --> Attempt to read property "tool_request_id" on string
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 321.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tool_request_id" on string', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 321)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_accept()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-15 21:31:13 --> Undefined variable $tr_id
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 329.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tr_id', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 329)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_accept()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-11-15 22:00:47 --> mysqli_sql_exception: Illegal parameter data types bigint and row for operation '=' in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\ToolRequest\ToolRequestMasterController.php(1448): CodeIgniter\Model->__call('get', Array)
+#6 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#10 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#11 {main}
+CRITICAL - 2023-11-15 22:00:47 --> Illegal parameter data types bigint and row for operation '='
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tool_request_details`
+WHERE `tldt_cstm_id` = :tldt_cstm_id:
+AND `tldt_status` = :tldt_status:', [...], false)
+ 2 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1448): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-11-15 22:01:00 --> mysqli_sql_exception: Illegal parameter data types bigint and row for operation '=' in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\ToolRequest\ToolRequestMasterController.php(1448): CodeIgniter\Model->__call('get', Array)
+#6 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#10 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#11 {main}
+CRITICAL - 2023-11-15 22:01:00 --> Illegal parameter data types bigint and row for operation '='
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tool_request_details`
+WHERE `tldt_cstm_id` = :tldt_cstm_id:
+AND `tldt_status` = :tldt_status:', [...], false)
+ 2 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1448): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-11-15 22:01:04 --> mysqli_sql_exception: Illegal parameter data types bigint and row for operation '=' in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\ToolRequest\ToolRequestMasterController.php(1448): CodeIgniter\Model->__call('get', Array)
+#6 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#10 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#11 {main}
+CRITICAL - 2023-11-15 22:01:04 --> Illegal parameter data types bigint and row for operation '='
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tool_request_details`
+WHERE `tldt_cstm_id` = :tldt_cstm_id:
+AND `tldt_status` = :tldt_status:', [...], false)
+ 2 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1448): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-11-15 22:01:08 --> mysqli_sql_exception: Illegal parameter data types bigint and row for operation '=' in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\ToolRequest\ToolRequestMasterController.php(1448): CodeIgniter\Model->__call('get', Array)
+#6 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#10 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#11 {main}
+CRITICAL - 2023-11-15 22:01:08 --> Illegal parameter data types bigint and row for operation '='
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tool_request_details`
+WHERE `tldt_cstm_id` = :tldt_cstm_id:
+AND `tldt_status` = :tldt_status:', [...], false)
+ 2 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1448): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-11-15 22:02:35 --> mysqli_sql_exception: Illegal parameter data types bigint and row for operation '=' in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\ToolRequest\ToolRequestMasterController.php(1447): CodeIgniter\BaseModel->findAll()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#12 {main}
+CRITICAL - 2023-11-15 22:02:35 --> Illegal parameter data types bigint and row for operation '='
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tool_request_details`
+WHERE `tldt_cstm_id` = :tldt_cstm_id:
+AND `tldt_status` = :tldt_status:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1447): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-11-15 22:02:43 --> mysqli_sql_exception: Illegal parameter data types bigint and row for operation '=' in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\ToolRequest\ToolRequestMasterController.php(1447): CodeIgniter\BaseModel->findAll()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#12 {main}
+CRITICAL - 2023-11-15 22:02:43 --> Illegal parameter data types bigint and row for operation '='
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tool_request_details`
+WHERE `tldt_cstm_id` = :tldt_cstm_id:
+AND `tldt_status` = :tldt_status:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1447): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-15 22:03:25 --> Attempt to read property "tldt_tool_id" on array
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1456.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1456): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tldt_tool_id" on array', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1456)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-11-15 22:12:19 --> mysqli_sql_exception: Not unique table/alias: 'tool_request_details' in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\ToolRequest\ToolRequestMasterController.php(1452): CodeIgniter\BaseModel->findAll()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#12 {main}
+CRITICAL - 2023-11-15 22:12:19 --> Not unique table/alias: 'tool_request_details'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tool_request_details`
+JOIN `tool_request_details` ON `tldet_id`=`tldt_tool_id`
+JOIN `status_master` ON `sm_id`=`tldt_status`
+WHERE `tldt_cstm_id` = :tldt_cstm_id:
+AND `tldt_status` = :tldt_status:
+OR `tldt_status` = :tldt_status.1:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1452): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-11-15 22:13:12 --> mysqli_sql_exception: Not unique table/alias: 'tool_request_details' in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\ToolRequest\ToolRequestMasterController.php(1452): CodeIgniter\BaseModel->findAll()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#12 {main}
+CRITICAL - 2023-11-15 22:13:13 --> Not unique table/alias: 'tool_request_details'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tool_request_details`
+JOIN `tool_request_details` ON `tldt_tool_id`=`tool_id`
+JOIN `status_master` ON `sm_id`=`tldt_status`
+WHERE `tldt_cstm_id` = :tldt_cstm_id:
+AND `tldt_status` = :tldt_status:
+OR `tldt_status` = :tldt_status.1:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1452): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-11-15 22:45:34 --> mysqli_sql_exception: Column 'tool_cost' cannot be null in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1800): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', NULL, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(2191): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\System\ToolMasterController.php(126): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->tool_create()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#10 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#11 {main}
+CRITICAL - 2023-11-15 22:45:34 --> Column 'tool_cost' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1800): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tool_details` (`tool_active_flag`, `tool_adv_payment`, `tool_adv_price`, `tool_availability_quantity`, `tool_cost`, `tool_description`, `tool_name`, `tool_quantity`)
+VALUES (\'0\',0,0,25,NULL,\'\',\'my launch tool\',\'\')', null, false)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2191): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 3 APPPATH\Controllers\System\ToolMasterController.php(126): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->tool_create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-15 23:03:12 --> Undefined property: stdClass::$imageurl
+in APPPATH\Controllers\System\ToolMasterController.php on line 180.
+ 1 APPPATH\Controllers\System\ToolMasterController.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$imageurl', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\System\\ToolMasterController.php', 180)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->update_tool_details()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-15 23:05:12 --> Undefined property: stdClass::$advanceflag
+in APPPATH\Controllers\System\ToolMasterController.php on line 185.
+ 1 APPPATH\Controllers\System\ToolMasterController.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$advanceflag', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\System\\ToolMasterController.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->update_tool_details()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-15 23:39:44 --> Undefined array key "tldet_id"
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1457.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1457): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tldet_id"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1457)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-15 23:40:14 --> Undefined array key "tldet_id"
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1457.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1457): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tldet_id"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1457)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-15 23:40:16 --> Undefined array key "tldet_id"
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1457.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1457): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tldet_id"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1457)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-15 23:40:33 --> Undefined array key "tldet_id"
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1457.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1457): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tldet_id"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1457)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-15 23:40:35 --> Undefined array key "tldet_id"
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1457.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1457): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tldet_id"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1457)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-15 23:40:39 --> Undefined array key "tldet_id"
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1457.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1457): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tldet_id"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1457)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-15 23:41:07 --> Undefined array key "tldet_id"
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1457.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1457): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tldet_id"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1457)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

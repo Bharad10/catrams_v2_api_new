@@ -1,0 +1,1080 @@
+WARNING - 2024-03-27 12:13:54 --> [DEPRECATED] DateTimeImmutable::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in SYSTEMPATH\I18n\TimeTrait.php on line 242.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(242): DateTimeImmutable::createFromFormat('Y-m-d H:i:s', null)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 12:13:54 --> "Y-m-d H:i:s" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d H:i:s')
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+WARNING - 2024-03-27 12:14:06 --> [DEPRECATED] DateTimeImmutable::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in SYSTEMPATH\I18n\TimeTrait.php on line 242.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(242): DateTimeImmutable::createFromFormat('Y-m-d H:i:s', null)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 12:14:06 --> "Y-m-d H:i:s" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d H:i:s')
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+WARNING - 2024-03-27 14:00:15 --> [DEPRECATED] DateTimeImmutable::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in SYSTEMPATH\I18n\TimeTrait.php on line 242.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(242): DateTimeImmutable::createFromFormat('Y-m-d H:i:s', null)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 14:00:15 --> "Y-m-d H:i:s" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d H:i:s')
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+WARNING - 2024-03-27 14:00:41 --> [DEPRECATED] DateTimeImmutable::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in SYSTEMPATH\I18n\TimeTrait.php on line 242.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(242): DateTimeImmutable::createFromFormat('Y-m-d H:i:s', null)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 14:00:41 --> "Y-m-d H:i:s" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d H:i:s')
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+WARNING - 2024-03-27 14:00:54 --> [DEPRECATED] DateTimeImmutable::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in SYSTEMPATH\I18n\TimeTrait.php on line 242.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(242): DateTimeImmutable::createFromFormat('Y-m-d H:i:s', null)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 14:00:54 --> "Y-m-d H:i:s" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d H:i:s')
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+WARNING - 2024-03-27 14:01:11 --> [DEPRECATED] DateTimeImmutable::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in SYSTEMPATH\I18n\TimeTrait.php on line 242.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(242): DateTimeImmutable::createFromFormat('Y-m-d H:i:s', null)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 14:01:11 --> "Y-m-d H:i:s" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d H:i:s')
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+WARNING - 2024-03-27 14:02:20 --> [DEPRECATED] DateTimeImmutable::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in SYSTEMPATH\I18n\TimeTrait.php on line 242.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(242): DateTimeImmutable::createFromFormat('Y-m-d H:i:s', null)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 14:02:20 --> "Y-m-d H:i:s" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d H:i:s')
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+WARNING - 2024-03-27 14:03:20 --> [DEPRECATED] DateTimeImmutable::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in SYSTEMPATH\I18n\TimeTrait.php on line 242.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(242): DateTimeImmutable::createFromFormat('Y-m-d H:i:s', null)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 14:03:20 --> "Y-m-d H:i:s" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d H:i:s')
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+WARNING - 2024-03-27 14:03:21 --> [DEPRECATED] DateTimeImmutable::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in SYSTEMPATH\I18n\TimeTrait.php on line 242.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(242): DateTimeImmutable::createFromFormat('Y-m-d H:i:s', null)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 14:03:21 --> "Y-m-d H:i:s" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d H:i:s')
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+WARNING - 2024-03-27 14:12:01 --> [DEPRECATED] DateTimeImmutable::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in SYSTEMPATH\I18n\TimeTrait.php on line 242.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(242): DateTimeImmutable::createFromFormat('Y-m-d H:i:s', null)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 14:12:01 --> "Y-m-d H:i:s" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d H:i:s')
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+WARNING - 2024-03-27 14:16:15 --> [DEPRECATED] DateTimeImmutable::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in SYSTEMPATH\I18n\TimeTrait.php on line 242.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(242): DateTimeImmutable::createFromFormat('Y-m-d H:i:s', null)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 14:16:15 --> "Y-m-d H:i:s" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d H:i:s')
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+WARNING - 2024-03-27 14:25:29 --> [DEPRECATED] DateTimeImmutable::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in SYSTEMPATH\I18n\TimeTrait.php on line 242.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(242): DateTimeImmutable::createFromFormat('Y-m-d H:i:s', null)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 14:25:29 --> "Y-m-d H:i:s" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d H:i:s')
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+WARNING - 2024-03-27 14:29:00 --> [DEPRECATED] DateTimeImmutable::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in SYSTEMPATH\I18n\TimeTrait.php on line 242.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(242): DateTimeImmutable::createFromFormat('Y-m-d H:i:s', null)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 14:29:00 --> "Y-m-d H:i:s" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d H:i:s')
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 14:30:15 --> Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 136.
+ 1 APPPATH\Config\Commonutils.php(30): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJEaWdpdGFsIFNlcnZpY2UiLCJhdWQiOiJjdXN0b21lciIsInN1YiI6IkN1c3RvbWVyIHZlcmlmaWNhdGlvbiIsImlhdCI6MTcxMTUyODg5MiwidWlkIjoiMSJ9.gKa93QxseJWWKtaVtbsgg1REPnOaumZSFcAzTpVF2F8', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(843): Config\Commonutils->decode_jwt_token('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJEaWdpdGFsIFNlcnZpY2UiLCJhdWQiOiJjdXN0b21lciIsInN1YiI6IkN1c3RvbWVyIHZlcmlmaWNhdGlvbiIsImlhdCI6MTcxMTUyODg5MiwidWlkIjoiMSJ9.gKa93QxseJWWKtaVtbsgg1REPnOaumZSFcAzTpVF2F8')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 14:41:40 --> Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 136.
+ 1 APPPATH\Config\Commonutils.php(30): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJEaWdpdGFsIFNlcnZpY2UiLCJhdWQiOiJjdXN0b21lciIsInN1YiI6IkN1c3RvbWVyIHZlcmlmaWNhdGlvbiIsImlhdCI6MTcxMTUzMDE0MiwidWlkIjoiMSJ9.xKn2EFOzToiW1ckN4WDITxgUjImY1wnoHIVEwoBFN4w', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(843): Config\Commonutils->decode_jwt_token('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJEaWdpdGFsIFNlcnZpY2UiLCJhdWQiOiJjdXN0b21lciIsInN1YiI6IkN1c3RvbWVyIHZlcmlmaWNhdGlvbiIsImlhdCI6MTcxMTUzMDE0MiwidWlkIjoiMSJ9.xKn2EFOzToiW1ckN4WDITxgUjImY1wnoHIVEwoBFN4w')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 14:41:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 847.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(847): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 847)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->get_item_det()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 14:41:54 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 847.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(847): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 847)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->get_item_det()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 14:42:57 --> Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 136.
+ 1 APPPATH\Config\Commonutils.php(30): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJEaWdpdGFsIFNlcnZpY2UiLCJhdWQiOiJjdXN0b21lciIsInN1YiI6IkN1c3RvbWVyIHZlcmlmaWNhdGlvbiIsImlhdCI6MTcxMTUzMDE0MiwidWlkIjoiMSJ9.xKn2EFOzToiW1ckN4WDITxgUjImY1wnoHIVEwoBFN4w', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(843): Config\Commonutils->decode_jwt_token('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJEaWdpdGFsIFNlcnZpY2UiLCJhdWQiOiJjdXN0b21lciIsInN1YiI6IkN1c3RvbWVyIHZlcmlmaWNhdGlvbiIsImlhdCI6MTcxMTUzMDE0MiwidWlkIjoiMSJ9.xKn2EFOzToiW1ckN4WDITxgUjImY1wnoHIVEwoBFN4w')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 14:45:05 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 847.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(847): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 847)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->get_item_det()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 14:45:29 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 847.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(847): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 847)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->get_item_det()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 14:46:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 847.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(847): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 847)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->get_item_det()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 14:48:29 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 845.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(845): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 845)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->get_item_det()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 15:45:31 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 848.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 848)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->get_item_det()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:32:30 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:33:19 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:33:41 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:40:48 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:40:48 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:40:49 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:40:49 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:40:49 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:40:49 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:40:49 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:40:49 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:40:50 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:40:59 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:07 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:10 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:11 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:11 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:11 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:12 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:12 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:12 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:12 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:13 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:13 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:13 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:15 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:16 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:17 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:17 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:17 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:17 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:18 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:18 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:18 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:19 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:42:20 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:43:15 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:43:15 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:43:15 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:43:15 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:43:15 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:43:15 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:43:15 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:43:16 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:43:16 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:43:16 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:43:16 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:43:19 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:43:19 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:43:19 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:43:19 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:43:20 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:43:20 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:43:20 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:43:20 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:43:20 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:43:20 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:43:21 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 411.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:44:58 --> Undefined variable $eachdata
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 410.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(410): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eachdata', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 410)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:44:58 --> Undefined variable $eachdata
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 410.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(410): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eachdata', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 410)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:44:58 --> Undefined variable $eachdata
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 410.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(410): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eachdata', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 410)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:44:59 --> Undefined variable $eachdata
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 410.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(410): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eachdata', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 410)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:44:59 --> Undefined variable $eachdata
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 410.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(410): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eachdata', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 410)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:44:59 --> Undefined variable $eachdata
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 410.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(410): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eachdata', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 410)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:44:59 --> Undefined variable $eachdata
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 410.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(410): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eachdata', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 410)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:44:59 --> Undefined variable $eachdata
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 410.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(410): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eachdata', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 410)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:44:59 --> Undefined variable $eachdata
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 410.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(410): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eachdata', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 410)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:44:59 --> Undefined variable $eachdata
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 410.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(410): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eachdata', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 410)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:45:00 --> Undefined variable $eachdata
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 410.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(410): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eachdata', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 410)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:47:05 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 414.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(414): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 414)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:50:40 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 413.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(413): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 413)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:51:05 --> Attempt to read property "serm_id" on array
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 413.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(413): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "serm_id" on array', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 413)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:51:19 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 413.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(413): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 413)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:51:37 --> Undefined variable $eachdata
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 413.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(413): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eachdata', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 413)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 16:51:47 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 413.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(413): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 413)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 17:00:17 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 405.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 405)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 17:00:17 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 405.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 405)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 17:00:18 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 405.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 405)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 17:00:18 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 405.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 405)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 17:00:18 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 405.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 405)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 17:00:19 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 405.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 405)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 17:00:19 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 405.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 405)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 17:00:19 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 405.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 405)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 17:00:20 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 405.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 405)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 17:00:20 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 405.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 405)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 17:00:20 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 405.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 405)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 17:00:23 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 405.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 405)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 17:00:23 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 405.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 405)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 17:00:23 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 405.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 405)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 17:00:23 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 405.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 405)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 17:00:23 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 405.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 405)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 17:00:24 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 405.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 405)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 17:00:24 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 405.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 405)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 17:00:24 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 405.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 405)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 17:00:24 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 405.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 405)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 17:00:25 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 405.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 405)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-27 17:00:25 --> Undefined array key "serm_id"
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 405.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 405)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vend_serm_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

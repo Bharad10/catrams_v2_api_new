@@ -1,0 +1,143 @@
+ERROR - 2024-03-23 11:24:01 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\app\Controllers\System\UserMasterController.php(266): CodeIgniter\BaseModel->first()
+#7 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\UserMasterController->get_userdet()
+#8 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UserMasterController))
+#9 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-loca...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\app\Controllers\System\UserMasterController.php(266): CodeIgniter\BaseModel->first()
+#6 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\UserMasterController->get_userdet()
+#7 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UserMasterController))
+#8 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-loca...')
+#11 {main}
+CRITICAL - 2024-03-23 11:24:01 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+JOIN `user_roles` ON `role_Id`=`us_role_id`
+WHERE `us_id` = :us_id:
+AND `us_delete_flag` = :us_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\System\UserMasterController.php(266): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\UserMasterController->get_userdet()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UserMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-03-23 11:24:05 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\app\Controllers\ServiceRequest\ServiceRequestMasterController.php(1975): CodeIgniter\BaseModel->first()
+#7 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+#8 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+#9 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-loca...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\app\Controllers\ServiceRequest\ServiceRequestMasterController.php(1975): CodeIgniter\BaseModel->first()
+#6 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+#7 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+#8 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-loca...')
+#11 {main}
+CRITICAL - 2024-03-23 11:24:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+JOIN `user_roles` ON `role_Id`=`us_role_id`
+WHERE `us_id` = :us_id:
+AND `us_delete_flag` = :us_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1975): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-03-23 11:24:10 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\app\Controllers\DashBoard\DashBoardController.php(32): CodeIgniter\BaseModel->first()
+#7 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\DashBoard\DashBoardController->index()
+#8 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard\DashBoardController))
+#9 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-loca...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\app\Controllers\DashBoard\DashBoardController.php(32): CodeIgniter\BaseModel->first()
+#6 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\DashBoard\DashBoardController->index()
+#7 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard\DashBoardController))
+#8 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-loca...')
+#11 {main}
+CRITICAL - 2024-03-23 11:24:10 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `us_id` = :us_id:
+AND `us_delete_flag` = :us_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\DashBoard\DashBoardController.php(32): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DashBoard\DashBoardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard\DashBoardController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

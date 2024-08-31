@@ -1,0 +1,149 @@
+ERROR - 2024-06-27 11:05:05 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\Auth\PreAuthentication.php(53): CodeIgniter\BaseModel->first()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->user_login()
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+#9 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\Auth\PreAuthentication.php(53): CodeIgniter\BaseModel->first()
+#6 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->user_login()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#11 {main}
+CRITICAL - 2024-06-27 11:05:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `us_email` = :us_email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth\PreAuthentication.php(53): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->user_login()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-06-27 11:18:05 --> Undefined array key "due_days"
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 983.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(983): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "due_days"', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 983)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-06-27 11:59:35 --> Cannot redeclare App\Controllers\ToolRequest\RentDelayCalcController::calculate_due_req()
+in APPPATH\Controllers\ToolRequest\RentDelayCalcController.php on line 188.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-27 11:59:38 --> Cannot redeclare App\Controllers\ToolRequest\RentDelayCalcController::calculate_due_req()
+in APPPATH\Controllers\ToolRequest\RentDelayCalcController.php on line 188.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-27 11:59:44 --> Cannot redeclare App\Controllers\ToolRequest\RentDelayCalcController::calculate_due_req()
+in APPPATH\Controllers\ToolRequest\RentDelayCalcController.php on line 188.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-27 12:01:04 --> Undefined array key "due_days"
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 983.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(983): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "due_days"', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 983)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-06-27 12:01:36 --> Undefined array key "due_days"
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 983.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(983): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "due_days"', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 983)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-06-27 12:06:48 --> Array to string conversion
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 982.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(982): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 982)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-06-27 12:07:14 --> Array to string conversion
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 982.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(982): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 982)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-06-27 12:07:57 --> Undefined array key "due_rent_price"
+in APPPATH\Controllers\ToolRequest\RentDelayCalcController.php on line 176.
+ 1 APPPATH\Controllers\ToolRequest\RentDelayCalcController.php(176): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "due_rent_price"', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\RentDelayCalcController.php', 176)
+ 2 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(980): App\Controllers\ToolRequest\RentDelayCalcController->calculate_due_req([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-06-27 12:08:39 --> Cannot access offset of type string on string
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-06-27 12:08:55 --> Undefined array key "expected_Days"
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 982.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(982): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "expected_Days"', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 982)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-06-27 12:19:51 --> Cannot access offset of type string on string
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 984.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-06-27 12:20:39 --> Cannot access offset of type string on string
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 984.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-06-27 12:21:17 --> Cannot access offset of type string on string
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 984.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-06-27 12:23:55 --> Undefined array key "due_rent_price"
+in APPPATH\Controllers\ToolRequest\RentDelayCalcController.php on line 180.
+ 1 APPPATH\Controllers\ToolRequest\RentDelayCalcController.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "due_rent_price"', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\RentDelayCalcController.php', 180)
+ 2 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(982): App\Controllers\ToolRequest\RentDelayCalcController->calculate_due_req([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')

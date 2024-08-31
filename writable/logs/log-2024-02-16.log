@@ -1,0 +1,81 @@
+CRITICAL - 2024-02-16 13:33:04 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1520): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-02-16 13:35:52 --> Undefined array key "shtrack_id"
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 130.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "shtrack_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 130)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->show('NQ')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-02-16 13:36:48 --> Undefined array key "shtrack_shm_id"
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 130.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "shtrack_shm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 130)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->show('NQ')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-02-16 14:02:19 --> Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 136.
+ 1 APPPATH\Config\Commonutils.php(30): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJEaWdpdGFsIFNlcnZpY2UiLCJhdWQiOiJjdXN0b21lciIsInN1YiI6IkN1c3RvbWVyIHZlcmlmaWNhdGlvbiIsImlhdCI6MTcwODA2MTQwMywidWlkIjoiMSJ9.7Tb0uM8B_ktdtEphggX6CH0xHxmjt7pPxAnH58ZGFoQ', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(718): Config\Commonutils->decode_jwt_token('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJEaWdpdGFsIFNlcnZpY2UiLCJhdWQiOiJjdXN0b21lciIsInN1YiI6IkN1c3RvbWVyIHZlcmlmaWNhdGlvbiIsImlhdCI6MTcwODA2MTQwMywidWlkIjoiMSJ9.7Tb0uM8B_ktdtEphggX6CH0xHxmjt7pPxAnH58ZGFoQ')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-02-16 18:05:00 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\app\Controllers\Auth\PreAuthentication.php(51): CodeIgniter\BaseModel->first()
+#7 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->user_login()
+#8 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+#9 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-loca...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\app\Controllers\Auth\PreAuthentication.php(51): CodeIgniter\BaseModel->first()
+#6 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->user_login()
+#7 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+#8 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-loca...')
+#11 {main}
+CRITICAL - 2024-02-16 18:05:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `us_email` = :us_email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth\PreAuthentication.php(51): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->user_login()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

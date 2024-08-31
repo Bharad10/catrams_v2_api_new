@@ -1,0 +1,18 @@
+CRITICAL - 2024-03-01 10:59:09 --> Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 136.
+ 1 APPPATH\Config\Commonutils.php(30): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJEaWdpdGFsIFNlcnZpY2UiLCJhdWQiOiJjdXN0b21lciIsInN1YiI6IkN1c3RvbWVyIHZlcmlmaWNhdGlvbiIsImlhdCI6MTcwOTIwOTYxMCwidWlkIjoiMiJ9.Euhv7RlJAI1Xr3CiYskjjVwdBJxsajZdY7IvW41_6TY', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(807): Config\Commonutils->decode_jwt_token('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJEaWdpdGFsIFNlcnZpY2UiLCJhdWQiOiJjdXN0b21lciIsInN1YiI6IkN1c3RvbWVyIHZlcmlmaWNhdGlvbiIsImlhdCI6MTcwOTIwOTYxMCwidWlkIjoiMiJ9.Euhv7RlJAI1Xr3CiYskjjVwdBJxsajZdY7IvW41_6TY')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-01 11:48:49 --> Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 136.
+ 1 APPPATH\Config\Commonutils.php(30): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJEaWdpdGFsIFNlcnZpY2UiLCJhdWQiOiJjdXN0b21lciIsInN1YiI6IkN1c3RvbWVyIHZlcmlmaWNhdGlvbiIsImlhdCI6MTcwOTE5NjM4MSwidWlkIjoiMSJ9.3_SePc0TiSg6i-VIHbI1Kv__HcFMuO2OAXSDdTcsHrU', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(807): Config\Commonutils->decode_jwt_token('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJEaWdpdGFsIFNlcnZpY2UiLCJhdWQiOiJjdXN0b21lciIsInN1YiI6IkN1c3RvbWVyIHZlcmlmaWNhdGlvbiIsImlhdCI6MTcwOTE5NjM4MSwidWlkIjoiMSJ9.3_SePc0TiSg6i-VIHbI1Kv__HcFMuO2OAXSDdTcsHrU')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

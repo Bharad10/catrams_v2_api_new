@@ -1,0 +1,355 @@
+ERROR - 2024-01-05 05:42:22 --> mysqli_sql_exception: Unknown column 'serm_status' in 'on clause' in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\Approval\ApprovalmasterControler.php(93): CodeIgniter\BaseModel->findAll()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Approval\ApprovalmasterControler->index()
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approval\ApprovalmasterControler))
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#12 {main}
+CRITICAL - 2024-01-05 05:42:22 --> Unknown column 'serm_status' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `approvalmaster`
+JOIN `servicerequest_items` ON `sitem_id` =`am_reqid`
+JOIN `status_master` ON `sm_id`=`serm_status`
+JOIN `servicerequest_master` ON `serm_id` =`sitem_serid`
+JOIN `service_request_package` ON `servpack_id` =`sitem_itemid`
+JOIN `customer_master` ON `cstm_id`=`am_createdby`
+WHERE `am_deleteflag` = :am_deleteflag:
+AND `am_type` = :am_type:
+OR `am_type` = :am_type.5:
+ORDER BY `am_updatedon` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Approval\ApprovalmasterControler.php(93): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Approval\ApprovalmasterControler->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approval\ApprovalmasterControler))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 05:44:51 --> count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 784.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(784): count(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->holdjob_by_cust()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 05:45:38 --> count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 784.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(784): count(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->holdjob_by_cust()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 05:46:54 --> count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 785.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(785): count(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->holdjob_by_cust()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 05:47:08 --> count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 785.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(785): count(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->holdjob_by_cust()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 05:47:20 --> count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 785.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(785): count(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->holdjob_by_cust()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 05:47:55 --> sizeof(): Argument #1 ($value) must be of type Countable|array, stdClass given
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 785.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(785): sizeof(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->holdjob_by_cust()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 05:48:28 --> sizeof(): Argument #1 ($value) must be of type Countable|array, stdClass given
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 785.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(785): sizeof(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->holdjob_by_cust()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 05:49:59 --> count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 785.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(785): count(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->holdjob_by_cust()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 05:54:42 --> Undefined property: stdClass::$sitem_id
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 793.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(793): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$sitem_id', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 793)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->holdjob_by_cust()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 05:55:16 --> Undefined property: stdClass::$sitem_id
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 793.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(793): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$sitem_id', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 793)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->holdjob_by_cust()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 09:23:58 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 150.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 150)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('MTI=')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 09:23:59 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 150.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 150)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('MTI=')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 09:23:59 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 456.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(456): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 456)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 09:24:12 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 150.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 150)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('MTI=')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 09:24:12 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 456.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(456): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 456)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 09:24:15 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 150.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 150)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('MTI=')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 09:24:17 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 150.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 150)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('MTI=')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 09:24:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 456.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(456): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 456)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 09:24:23 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 150.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 150)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('MTI=')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 09:24:24 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 150.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 150)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('MTI=')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 09:24:24 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 456.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(456): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 456)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 09:27:14 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 150.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 150)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('MTI=')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 09:27:14 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 456.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(456): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 456)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 09:28:39 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 150.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 150)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('MTI=')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 09:28:51 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 150.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 150)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('MTI=')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 09:30:21 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 151.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('MTI=')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-01-05 09:34:53 --> mysqli_sql_exception: Unknown column 'am_createdby' in 'on clause' in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\Approval\ApprovalmasterControler.php(96): CodeIgniter\BaseModel->first()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Approval\ApprovalmasterControler->index()
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approval\ApprovalmasterControler))
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#12 {main}
+CRITICAL - 2024-01-05 09:34:53 --> Unknown column 'am_createdby' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `servicerequest_master`
+JOIN `customer_master` ON `cstm_id`=`am_createdby`
+JOIN `status_master` ON `sm_id`=`serm_status`
+WHERE `serm_id` = :serm_id:
+ORDER BY `am_updatedon` DESC
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Approval\ApprovalmasterControler.php(96): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Approval\ApprovalmasterControler->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approval\ApprovalmasterControler))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-01-05 09:36:31 --> mysqli_sql_exception: Unknown column 'am_updatedon' in 'order clause' in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\Approval\ApprovalmasterControler.php(96): CodeIgniter\BaseModel->first()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Approval\ApprovalmasterControler->index()
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approval\ApprovalmasterControler))
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#12 {main}
+CRITICAL - 2024-01-05 09:36:31 --> Unknown column 'am_updatedon' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `servicerequest_master`
+JOIN `status_master` ON `sm_id`=`serm_status`
+WHERE `serm_id` = :serm_id:
+ORDER BY `am_updatedon` DESC
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Approval\ApprovalmasterControler.php(96): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Approval\ApprovalmasterControler->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approval\ApprovalmasterControler))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 09:57:55 --> Undefined variable $data
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 607.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(607): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 607)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->workcard_unhold()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 09:58:02 --> Undefined variable $data
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 607.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(607): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 607)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->workcard_unhold()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 09:58:39 --> Undefined variable $hist
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 609.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(609): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hist', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 609)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->workcard_unhold()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 09:58:51 --> Undefined variable $wk_Data
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 619.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(619): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $wk_Data', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 619)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->workcard_unhold()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 10:28:46 --> Undefined array key "sitem_id"
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 427.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(427): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sitem_id"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 427)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->servicestatus_update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-05 10:29:38 --> Undefined array key "sitem_id"
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 427.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(427): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sitem_id"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 427)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->servicestatus_update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

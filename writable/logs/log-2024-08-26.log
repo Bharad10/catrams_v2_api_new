@@ -1,0 +1,491 @@
+ERROR - 2024-08-26 10:37:34 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'cat_rams', 3306, '', 0)
+#1 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\app\Controllers\System\ToolMasterController.php(38): CodeIgniter\BaseModel->first()
+#7 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->index()
+#8 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+#9 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\app\Controllers\System\ToolMasterController.php(38): CodeIgniter\BaseModel->first()
+#6 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->index()
+#7 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+#8 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#11 {main}
+CRITICAL - 2024-08-26 10:37:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\System\ToolMasterController.php(38): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+ERROR - 2024-08-26 10:37:39 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'cat_rams', 3306, '', 0)
+#1 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\app\Controllers\System\BannerController.php(40): CodeIgniter\BaseModel->first()
+#7 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(919): App\Controllers\System\BannerController->index()
+#8 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+#9 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\app\Controllers\System\BannerController.php(40): CodeIgniter\BaseModel->first()
+#6 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(919): App\Controllers\System\BannerController->index()
+#7 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+#8 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#11 {main}
+CRITICAL - 2024-08-26 10:37:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\System\BannerController.php(40): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+ERROR - 2024-08-26 10:37:43 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'cat_rams', 3306, '', 0)
+#1 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\app\Controllers\System\UsersNotificationController.php(31): CodeIgniter\BaseModel->first()
+#7 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(919): App\Controllers\System\UsersNotificationController->index()
+#8 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UsersNotificationController))
+#9 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\app\Controllers\System\UsersNotificationController.php(31): CodeIgniter\BaseModel->first()
+#6 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(919): App\Controllers\System\UsersNotificationController->index()
+#7 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UsersNotificationController))
+#8 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#11 {main}
+CRITICAL - 2024-08-26 10:37:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\System\UsersNotificationController.php(31): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\UsersNotificationController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UsersNotificationController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+ERROR - 2024-08-26 10:37:48 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'cat_rams', 3306, '', 0)
+#1 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\app\Controllers\ToolRequest\ToolRequestMasterController.php(934): CodeIgniter\BaseModel->first()
+#7 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+#8 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+#9 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\app\Controllers\ToolRequest\ToolRequestMasterController.php(934): CodeIgniter\BaseModel->first()
+#6 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+#7 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+#8 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#11 {main}
+CRITICAL - 2024-08-26 10:37:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(934): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+ERROR - 2024-08-26 10:37:52 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'cat_rams', 3306, '', 0)
+#1 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\app\Controllers\WorkCard\WorkCardMasterController.php(2449): CodeIgniter\BaseModel->first()
+#7 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->work_card_activity_details()
+#8 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+#9 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\app\Controllers\WorkCard\WorkCardMasterController.php(2449): CodeIgniter\BaseModel->first()
+#6 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->work_card_activity_details()
+#7 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+#8 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#11 {main}
+CRITICAL - 2024-08-26 10:37:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(2449): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->work_card_activity_details()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+ERROR - 2024-08-26 10:37:56 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'cat_rams', 3306, '', 0)
+#1 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\app\Controllers\Customer\CustomerMasterController.php(88): CodeIgniter\BaseModel->first()
+#7 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(919): App\Controllers\Customer\CustomerMasterController->show('MQ==')
+#8 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomerMasterController))
+#9 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\app\Controllers\Customer\CustomerMasterController.php(88): CodeIgniter\BaseModel->first()
+#6 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(919): App\Controllers\Customer\CustomerMasterController->show('MQ==')
+#7 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomerMasterController))
+#8 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#11 {main}
+CRITICAL - 2024-08-26 10:37:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Customer\CustomerMasterController.php(88): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Customer\CustomerMasterController->show('MQ==')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomerMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+ERROR - 2024-08-26 10:38:15 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'cat_rams', 3306, '', 0)
+#1 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\app\Controllers\Auth\PreAuthentication.php(279): CodeIgniter\BaseModel->first()
+#7 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->verify_signin_otp()
+#8 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+#9 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\app\Controllers\Auth\PreAuthentication.php(279): CodeIgniter\BaseModel->first()
+#6 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->verify_signin_otp()
+#7 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+#8 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#11 {main}
+CRITICAL - 2024-08-26 10:38:15 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_phone` = :cstm_phone:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth\PreAuthentication.php(279): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->verify_signin_otp()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-26 10:40:57 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 192.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-08-26 10:44:21 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 192.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-08-26 11:20:57 --> mysqli_sql_exception: Unknown column 'servpack_id' in 'on clause' in D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `service...', 0)
+#1 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `service...')
+#2 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `service...')
+#3 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `service...', Array, false)
+#4 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\app\Controllers\ServiceRequest\ServiceRequestMasterController.php(361): CodeIgniter\BaseModel->findAll()
+#7 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('Nzk')
+#8 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+#9 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#12 {main}
+CRITICAL - 2024-08-26 11:20:57 --> Unknown column 'servpack_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `services_mapping`.*, `tool_details`.*, `quote_items`.`qti_cost` as `servpack_cost`
+FROM `services_mapping`
+JOIN `tool_details` ON `tool_id`=`srm_tool_id`
+JOIN `quote_items` ON `quote_items`.`qti_item_id`=`servpack_id`
+WHERE `srm_delete_flag` = :srm_delete_flag:
+AND `srm_servpack_id` = :srm_servpack_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(361): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('Nzk')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+ERROR - 2024-08-26 11:22:32 --> mysqli_sql_exception: Unknown column 'servpack_id' in 'on clause' in D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `service...', 0)
+#1 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `service...')
+#2 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `service...')
+#3 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `service...', Array, false)
+#4 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\app\Controllers\ServiceRequest\ServiceRequestMasterController.php(361): CodeIgniter\BaseModel->findAll()
+#7 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('Nzk')
+#8 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+#9 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#12 {main}
+CRITICAL - 2024-08-26 11:22:32 --> Unknown column 'servpack_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `services_mapping`.*, `tool_details`.*, `quote_items`.`qti_cost` as `servpack_cost`
+FROM `services_mapping`
+JOIN `tool_details` ON `tool_id`=`srm_tool_id`
+JOIN `quote_items` ON `quote_items`.`qti_item_id`=`servpack_id`
+WHERE `srm_delete_flag` = :srm_delete_flag:
+AND `srm_servpack_id` = :srm_servpack_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(361): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('Nzk')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+ERROR - 2024-08-26 11:23:29 --> mysqli_sql_exception: Unknown column 'servpack_id' in 'on clause' in D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `service...', 0)
+#1 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `service...')
+#2 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `service...')
+#3 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `service...', Array, false)
+#4 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\app\Controllers\ServiceRequest\ServiceRequestMasterController.php(361): CodeIgniter\BaseModel->findAll()
+#7 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('Nzk')
+#8 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+#9 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#12 {main}
+CRITICAL - 2024-08-26 11:23:29 --> Unknown column 'servpack_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `services_mapping`.*, `tool_details`.*, `quote_items`.`qti_cost` as `servpack_cost`
+FROM `services_mapping`
+JOIN `tool_details` ON `tool_id`=`srm_tool_id`
+JOIN `quote_items` ON `quote_items`.`qti_item_id`=`servpack_id`
+WHERE `srm_delete_flag` = :srm_delete_flag:
+AND `srm_servpack_id` = :srm_servpack_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(361): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('Nzk')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+ERROR - 2024-08-26 11:25:42 --> mysqli_sql_exception: Unknown column 'servpack_id' in 'on clause' in D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `service...', 0)
+#1 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `service...')
+#2 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `service...')
+#3 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `service...', Array, false)
+#4 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\app\Controllers\ServiceRequest\ServiceRequestMasterController.php(361): CodeIgniter\BaseModel->findAll()
+#7 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('Nzk')
+#8 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+#9 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#12 {main}
+CRITICAL - 2024-08-26 11:25:42 --> Unknown column 'servpack_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `services_mapping`.*, `tool_details`.*, `quote_items`.`qti_cost` as `servpack_cost`
+FROM `services_mapping`
+JOIN `tool_details` ON `tool_id`=`srm_tool_id`
+JOIN `quote_items` ON `quote_items`.`qti_item_id`=`servpack_id`
+WHERE `srm_delete_flag` = :srm_delete_flag:
+AND `srm_servpack_id` = :srm_servpack_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(361): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('Nzk')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+ERROR - 2024-08-26 11:26:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `srm_delete_flag` = 0
+AND `srm_servpack_id` = '2'' at line 5 in D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `service...', 0)
+#1 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `service...')
+#2 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `service...')
+#3 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `service...', Array, false)
+#4 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\app\Controllers\ServiceRequest\ServiceRequestMasterController.php(361): CodeIgniter\BaseModel->findAll()
+#7 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('Nzk')
+#8 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+#9 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#12 {main}
+CRITICAL - 2024-08-26 11:26:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `srm_delete_flag` = 0
+AND `srm_servpack_id` = '2'' at line 5
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `services_mapping`.*, `tool_details`.*, `quote_items`.`qti_cost` as `servpack_cost`
+FROM `services_mapping`
+JOIN `tool_details` ON `tool_id`=`srm_tool_id`
+JOIN `quote_items` ON `quote_items`.`qti_item_id`=
+WHERE `srm_delete_flag` = :srm_delete_flag:
+AND `srm_servpack_id` = :srm_servpack_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(361): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('Nzk')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')

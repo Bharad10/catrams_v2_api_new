@@ -1,0 +1,34 @@
+WARNING - 2024-04-09 10:02:59 --> [DEPRECATED] DateTimeImmutable::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in SYSTEMPATH\I18n\TimeTrait.php on line 242.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(242): DateTimeImmutable::createFromFormat('Y-m-d H:i:s', null)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-04-09 10:02:59 --> "Y-m-d H:i:s" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d H:i:s')
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+WARNING - 2024-04-09 10:29:32 --> [DEPRECATED] DateTimeImmutable::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in SYSTEMPATH\I18n\TimeTrait.php on line 242.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(242): DateTimeImmutable::createFromFormat('Y-m-d H:i:s', null)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-04-09 10:29:32 --> "Y-m-d H:i:s" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d H:i:s')
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2034): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

@@ -1,0 +1,37 @@
+ERROR - 2023-11-29 07:11:37 --> mysqli_sql_exception: Unknown column 'tldt_status' in 'on clause' in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `sm_name...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm_name...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm_name...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `sm_name...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\ServiceRequest\ServiceRequestMasterController.php(1173): CodeIgniter\BaseModel->first()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->fetch_sr_timeline()
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#12 {main}
+CRITICAL - 2023-11-29 07:11:37 --> Unknown column 'tldt_status' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `sm_name`, `sm_code`, `sm_id`
+FROM `servicerequest_master`
+JOIN `status_master` ON `tldt_status`=`sm_id`
+WHERE `serm_id` = :serm_id:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1173): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->fetch_sr_timeline()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-29 07:17:42 --> Call to a member function move() on null
+in APPPATH\Controllers\Customer\CustomerMasterController.php on line 386.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Customer\CustomerMasterController->profilpic_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomerMasterController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

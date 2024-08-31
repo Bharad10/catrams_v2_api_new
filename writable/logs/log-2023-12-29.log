@@ -1,0 +1,448 @@
+CRITICAL - 2023-12-29 05:18:10 --> Undefined variable $retarray
+in APPPATH\Controllers\Coupon\CouponMasterController.php on line 482.
+ 1 APPPATH\Controllers\Coupon\CouponMasterController.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $retarray', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Coupon\\CouponMasterController.php', 482)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coupon\CouponMasterController->get_couponsforcustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon\CouponMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 05:19:03 --> Undefined variable $retarray
+in APPPATH\Controllers\Coupon\CouponMasterController.php on line 482.
+ 1 APPPATH\Controllers\Coupon\CouponMasterController.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $retarray', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Coupon\\CouponMasterController.php', 482)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coupon\CouponMasterController->get_couponsforcustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon\CouponMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 05:19:20 --> Undefined variable $retarray
+in APPPATH\Controllers\Coupon\CouponMasterController.php on line 482.
+ 1 APPPATH\Controllers\Coupon\CouponMasterController.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $retarray', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Coupon\\CouponMasterController.php', 482)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coupon\CouponMasterController->get_couponsforcustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon\CouponMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 05:52:15 --> Undefined variable $retarray
+in APPPATH\Controllers\Coupon\CouponMasterController.php on line 482.
+ 1 APPPATH\Controllers\Coupon\CouponMasterController.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $retarray', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Coupon\\CouponMasterController.php', 482)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coupon\CouponMasterController->get_couponsforcustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon\CouponMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 05:52:43 --> Undefined variable $retarray
+in APPPATH\Controllers\Coupon\CouponMasterController.php on line 482.
+ 1 APPPATH\Controllers\Coupon\CouponMasterController.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $retarray', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Coupon\\CouponMasterController.php', 482)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coupon\CouponMasterController->get_couponsforcustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon\CouponMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 05:53:00 --> Undefined variable $retarray
+in APPPATH\Controllers\Coupon\CouponMasterController.php on line 482.
+ 1 APPPATH\Controllers\Coupon\CouponMasterController.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $retarray', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Coupon\\CouponMasterController.php', 482)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coupon\CouponMasterController->get_couponsforcustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon\CouponMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 06:11:50 --> Undefined array key "due_rent_price"
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 117.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "due_rent_price"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->show('Mw')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:13:45 --> Undefined variable $retarray
+in APPPATH\Controllers\Coupon\CouponMasterController.php on line 482.
+ 1 APPPATH\Controllers\Coupon\CouponMasterController.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $retarray', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Coupon\\CouponMasterController.php', 482)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coupon\CouponMasterController->get_couponsforcustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon\CouponMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:15:24 --> Undefined variable $retarray
+in APPPATH\Controllers\Coupon\CouponMasterController.php on line 482.
+ 1 APPPATH\Controllers\Coupon\CouponMasterController.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $retarray', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Coupon\\CouponMasterController.php', 482)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coupon\CouponMasterController->get_couponsforcustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon\CouponMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:24:32 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:24:34 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:24:35 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:24:35 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:24:35 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:24:35 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:24:36 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:24:36 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:24:37 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:24:37 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:24:40 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:24:40 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:24:40 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:24:41 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:24:42 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:24:42 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:24:42 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:24:43 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:26:01 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:26:09 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:26:46 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:26:47 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:26:47 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:26:47 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:27:30 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:27:31 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:27:31 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:27:31 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:27:31 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:27:39 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:27:39 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:27:39 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:27:39 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:27:39 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:27:39 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:27:40 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:27:40 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:27:40 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:28:52 --> Undefined variable $retarray
+in APPPATH\Controllers\Coupon\CouponMasterController.php on line 482.
+ 1 APPPATH\Controllers\Coupon\CouponMasterController.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $retarray', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Coupon\\CouponMasterController.php', 482)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coupon\CouponMasterController->get_couponsforcustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon\CouponMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 07:32:43 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 08:11:44 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 08:13:03 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 08:15:55 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1099.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1099)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 09:50:14 --> Undefined variable $retarray
+in APPPATH\Controllers\Coupon\CouponMasterController.php on line 482.
+ 1 APPPATH\Controllers\Coupon\CouponMasterController.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $retarray', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Coupon\\CouponMasterController.php', 482)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coupon\CouponMasterController->get_couponsforcustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon\CouponMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 09:54:25 --> Undefined variable $retarray
+in APPPATH\Controllers\Coupon\CouponMasterController.php on line 482.
+ 1 APPPATH\Controllers\Coupon\CouponMasterController.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $retarray', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Coupon\\CouponMasterController.php', 482)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coupon\CouponMasterController->get_couponsforcustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon\CouponMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 10:21:59 --> Undefined variable $retarray
+in APPPATH\Controllers\Coupon\CouponMasterController.php on line 482.
+ 1 APPPATH\Controllers\Coupon\CouponMasterController.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $retarray', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Coupon\\CouponMasterController.php', 482)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coupon\CouponMasterController->get_couponsforcustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon\CouponMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-29 12:53:35 --> Undefined array key "due_rent_price"
+in APPPATH\Controllers\DashBoard\DashBoardController.php on line 127.
+ 1 APPPATH\Controllers\DashBoard\DashBoardController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "due_rent_price"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\DashBoard\\DashBoardController.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DashBoard\DashBoardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard\DashBoardController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

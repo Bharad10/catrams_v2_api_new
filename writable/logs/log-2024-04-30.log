@@ -1,0 +1,131 @@
+CRITICAL - 2024-04-30 10:10:32 --> "Y-m-d" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d')
+ 2 APPPATH\Controllers\DashBoard\DashBoardController.php(171): CodeIgniter\I18n\Time::createFromFormat('Y-m-d', '2024-04-27 18:27:23')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DashBoard\DashBoardController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard\DashBoardController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+WARNING - 2024-04-30 10:10:32 --> [DEPRECATED] DateTimeImmutable::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in SYSTEMPATH\I18n\TimeTrait.php on line 242.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(242): DateTimeImmutable::createFromFormat('Y-m-d H:i:s', null)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2083): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-04-30 10:10:32 --> "Y-m-d H:i:s" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d H:i:s')
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2083): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-04-30 10:10:41 --> "Y-m-d" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d')
+ 2 APPPATH\Controllers\DashBoard\DashBoardController.php(171): CodeIgniter\I18n\Time::createFromFormat('Y-m-d', '2024-04-27 18:27:23')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DashBoard\DashBoardController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard\DashBoardController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+WARNING - 2024-04-30 10:10:41 --> [DEPRECATED] DateTimeImmutable::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in SYSTEMPATH\I18n\TimeTrait.php on line 242.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(242): DateTimeImmutable::createFromFormat('Y-m-d H:i:s', null)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2083): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-04-30 10:10:41 --> "Y-m-d H:i:s" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d H:i:s')
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2083): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-04-30 10:10:46 --> "Y-m-d" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d')
+ 2 APPPATH\Controllers\DashBoard\DashBoardController.php(171): CodeIgniter\I18n\Time::createFromFormat('Y-m-d', '2024-04-27 18:27:23')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DashBoard\DashBoardController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard\DashBoardController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+WARNING - 2024-04-30 10:10:46 --> [DEPRECATED] DateTimeImmutable::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in SYSTEMPATH\I18n\TimeTrait.php on line 242.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(242): DateTimeImmutable::createFromFormat('Y-m-d H:i:s', null)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2083): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-04-30 10:10:46 --> "Y-m-d H:i:s" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d H:i:s')
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2083): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-04-30 10:45:36 --> "Y-m-d" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d')
+ 2 APPPATH\Controllers\DashBoard\DashBoardController.php(171): CodeIgniter\I18n\Time::createFromFormat('Y-m-d', '2024-04-27 18:27:23')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DashBoard\DashBoardController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard\DashBoardController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+WARNING - 2024-04-30 10:45:36 --> [DEPRECATED] DateTimeImmutable::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in SYSTEMPATH\I18n\TimeTrait.php on line 242.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(242): DateTimeImmutable::createFromFormat('Y-m-d H:i:s', null)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2083): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-04-30 10:45:36 --> "Y-m-d H:i:s" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d H:i:s')
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2083): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->check_reopen_workcard()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-04-30 23:09:13 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\Order\OrderMasterController.php on line 918.
+ 1 APPPATH\Controllers\Order\OrderMasterController.php(918): array_push(null, [...])
+ 2 APPPATH\Controllers\Order\OrderMasterController.php(437): App\Controllers\Order\OrderMasterController->order_shipped('1', [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Order\OrderMasterController->update()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order\OrderMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-04-30 23:09:19 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\Order\OrderMasterController.php on line 918.
+ 1 APPPATH\Controllers\Order\OrderMasterController.php(918): array_push(null, [...])
+ 2 APPPATH\Controllers\Order\OrderMasterController.php(437): App\Controllers\Order\OrderMasterController->order_shipped('1', [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Order\OrderMasterController->update()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order\OrderMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-04-30 23:24:28 --> Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 136.
+ 1 APPPATH\Config\Commonutils.php(30): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJEaWdpdGFsIFNlcnZpY2UiLCJhdWQiOiJjdXN0b21lciIsInN1YiI6IkN1c3RvbWVyIHZlcmlmaWNhdGlvbiIsImlhdCI6MTcxNDQ5Nzk3NCwidWlkIjoiNjAifQ.bLO4uwj2c7ffSl8aNDmfO9-UZlo8ut3G8P1FAXHwZx4', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(871): Config\Commonutils->decode_jwt_token('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJEaWdpdGFsIFNlcnZpY2UiLCJhdWQiOiJjdXN0b21lciIsInN1YiI6IkN1c3RvbWVyIHZlcmlmaWNhdGlvbiIsImlhdCI6MTcxNDQ5Nzk3NCwidWlkIjoiNjAifQ.bLO4uwj2c7ffSl8aNDmfO9-UZlo8ut3G8P1FAXHwZx4')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

@@ -1,0 +1,57 @@
+CRITICAL - 2023-10-27 16:56:36 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\System\UserRoleController.php on line 865.
+ 1 APPPATH\Controllers\System\UserRoleController.php(865): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\System\\UserRoleController.php', 865)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\UserRoleController->tool_create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UserRoleController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-10-27 16:58:43 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\System\UserRoleController.php on line 867.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\UserRoleController->tool_create()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UserRoleController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-10-27 16:59:52 --> Cannot access offset of type string on string
+in APPPATH\Controllers\System\UserRoleController.php on line 868.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\UserRoleController->tool_create()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UserRoleController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-10-27 17:00:51 --> Cannot access offset of type string on string
+in APPPATH\Controllers\System\UserRoleController.php on line 868.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\UserRoleController->tool_create()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UserRoleController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-10-27 17:01:14 --> Cannot access offset of type string on string
+in APPPATH\Controllers\System\UserRoleController.php on line 868.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\UserRoleController->tool_create()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UserRoleController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-10-27 17:03:17 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\System\UserRoleController.php on line 868.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\UserRoleController->tool_create()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UserRoleController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-10-27 17:05:04 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\System\UserRoleController.php on line 869.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\UserRoleController->tool_create()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UserRoleController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-10-27 17:22:16 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\System\UserRoleController.php on line 867.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\UserRoleController->tool_create()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UserRoleController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

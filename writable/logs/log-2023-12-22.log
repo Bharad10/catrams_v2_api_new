@@ -1,0 +1,87 @@
+ERROR - 2023-12-22 11:26:59 --> mysqli_sql_exception: Unknown column 'desc' in 'order clause' in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\System\ToolMasterController.php(412): CodeIgniter\BaseModel->findAll()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->tool_track_list()
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#12 {main}
+CRITICAL - 2023-12-22 11:26:59 --> Unknown column 'desc' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tool_details`
+JOIN `tool_tracker` ON `trk_tool_id`=`tool_id`
+WHERE `tool_active_flag` = :tool_active_flag:
+AND `tool_id` = :tool_id:
+ORDER BY `desc`', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\System\ToolMasterController.php(412): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->tool_track_list()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-22 12:08:10 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1128.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1128)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-22 12:10:26 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1128.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1128)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-22 12:12:07 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1128.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1128)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-22 12:26:48 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1128.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1128)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-22 12:26:49 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1128.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1128)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-22 12:42:35 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1128.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1128)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-22 12:42:35 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1128.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1128)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

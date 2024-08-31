@@ -1,0 +1,808 @@
+ERROR - 2024-08-07 11:20:22 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\System\BannerController.php(40): CodeIgniter\BaseModel->first()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\BannerController->index()
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+#9 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\System\BannerController.php(40): CodeIgniter\BaseModel->first()
+#6 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\BannerController->index()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#11 {main}
+CRITICAL - 2024-08-07 11:20:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\System\BannerController.php(40): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-08-07 11:20:37 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\System\BannerController.php(40): CodeIgniter\BaseModel->first()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\BannerController->index()
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+#9 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\System\BannerController.php(40): CodeIgniter\BaseModel->first()
+#6 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\BannerController->index()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#11 {main}
+CRITICAL - 2024-08-07 11:20:37 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\System\BannerController.php(40): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-08-07 11:20:43 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\System\BannerController.php(40): CodeIgniter\BaseModel->first()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\BannerController->index()
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+#9 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\System\BannerController.php(40): CodeIgniter\BaseModel->first()
+#6 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\BannerController->index()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#11 {main}
+CRITICAL - 2024-08-07 11:20:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\System\BannerController.php(40): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-08-07 11:21:20 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\ToolRequest\ToolRequestMasterController.php(933): CodeIgniter\BaseModel->first()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+#9 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\ToolRequest\ToolRequestMasterController.php(933): CodeIgniter\BaseModel->first()
+#6 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#11 {main}
+CRITICAL - 2024-08-07 11:21:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(933): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-08-07 11:21:24 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\ToolRequest\ToolRequestMasterController.php(1982): CodeIgniter\BaseModel->first()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+#9 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\ToolRequest\ToolRequestMasterController.php(1982): CodeIgniter\BaseModel->first()
+#6 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#11 {main}
+CRITICAL - 2024-08-07 11:21:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1982): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-08-07 11:21:28 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\ToolRequest\ToolRequestMasterController.php(933): CodeIgniter\BaseModel->first()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+#9 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\ToolRequest\ToolRequestMasterController.php(933): CodeIgniter\BaseModel->first()
+#6 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#11 {main}
+CRITICAL - 2024-08-07 11:21:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(933): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-08-07 11:21:32 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\ToolRequest\ToolRequestMasterController.php(1982): CodeIgniter\BaseModel->first()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+#9 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\ToolRequest\ToolRequestMasterController.php(1982): CodeIgniter\BaseModel->first()
+#6 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#11 {main}
+CRITICAL - 2024-08-07 11:21:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1982): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-08-07 11:22:24 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\System\ToolMasterController.php(38): CodeIgniter\BaseModel->first()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->index()
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+#9 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\System\ToolMasterController.php(38): CodeIgniter\BaseModel->first()
+#6 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->index()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#11 {main}
+CRITICAL - 2024-08-07 11:22:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\System\ToolMasterController.php(38): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-08-07 11:22:28 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\ToolRequest\ToolRequestMasterController.php(933): CodeIgniter\BaseModel->first()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+#9 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\ToolRequest\ToolRequestMasterController.php(933): CodeIgniter\BaseModel->first()
+#6 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#11 {main}
+CRITICAL - 2024-08-07 11:22:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(933): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-08-07 11:22:32 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\System\BannerController.php(40): CodeIgniter\BaseModel->first()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\BannerController->index()
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+#9 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\System\BannerController.php(40): CodeIgniter\BaseModel->first()
+#6 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\BannerController->index()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#11 {main}
+CRITICAL - 2024-08-07 11:22:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\System\BannerController.php(40): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-08-07 11:22:36 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\System\UsersNotificationController.php(31): CodeIgniter\BaseModel->first()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\UsersNotificationController->index()
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UsersNotificationController))
+#9 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\System\UsersNotificationController.php(31): CodeIgniter\BaseModel->first()
+#6 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\UsersNotificationController->index()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UsersNotificationController))
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#11 {main}
+CRITICAL - 2024-08-07 11:22:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\System\UsersNotificationController.php(31): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\UsersNotificationController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UsersNotificationController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-08-07 11:22:40 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\System\BannerController.php(40): CodeIgniter\BaseModel->first()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\BannerController->index()
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+#9 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\System\BannerController.php(40): CodeIgniter\BaseModel->first()
+#6 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\BannerController->index()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#11 {main}
+CRITICAL - 2024-08-07 11:22:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\System\BannerController.php(40): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-08-07 11:22:45 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\System\UsersNotificationController.php(31): CodeIgniter\BaseModel->first()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\UsersNotificationController->index()
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UsersNotificationController))
+#9 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\System\UsersNotificationController.php(31): CodeIgniter\BaseModel->first()
+#6 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\UsersNotificationController->index()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UsersNotificationController))
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#11 {main}
+CRITICAL - 2024-08-07 11:22:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\System\UsersNotificationController.php(31): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\UsersNotificationController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UsersNotificationController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-08-07 11:22:49 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\System\ToolMasterController.php(38): CodeIgniter\BaseModel->first()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->index()
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+#9 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\System\ToolMasterController.php(38): CodeIgniter\BaseModel->first()
+#6 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->index()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#11 {main}
+CRITICAL - 2024-08-07 11:22:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\System\ToolMasterController.php(38): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-08-07 11:22:53 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\ToolRequest\ToolRequestMasterController.php(933): CodeIgniter\BaseModel->first()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+#9 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\ToolRequest\ToolRequestMasterController.php(933): CodeIgniter\BaseModel->first()
+#6 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#11 {main}
+CRITICAL - 2024-08-07 11:22:53 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(933): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-08-07 11:22:58 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\System\UsersNotificationController.php(35): CodeIgniter\BaseModel->first()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\UsersNotificationController->index()
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UsersNotificationController))
+#9 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\System\UsersNotificationController.php(35): CodeIgniter\BaseModel->first()
+#6 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\UsersNotificationController->index()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UsersNotificationController))
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#11 {main}
+CRITICAL - 2024-08-07 11:22:58 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `us_id` = :us_id:
+AND `us_delete_flag` = :us_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\System\UsersNotificationController.php(35): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\UsersNotificationController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UsersNotificationController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-08-07 11:23:02 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\System\UserMasterController.php(272): CodeIgniter\BaseModel->first()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\UserMasterController->get_userdet()
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UserMasterController))
+#9 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\System\UserMasterController.php(272): CodeIgniter\BaseModel->first()
+#6 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\UserMasterController->get_userdet()
+#7 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UserMasterController))
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#11 {main}
+CRITICAL - 2024-08-07 11:23:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+JOIN `user_roles` ON `role_Id`=`us_role_id`
+WHERE `us_id` = :us_id:
+AND `us_delete_flag` = :us_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\System\UserMasterController.php(272): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\UserMasterController->get_userdet()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UserMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-08-07 11:45:08 --> Attempt to read property "path" on array
+in APPPATH\Controllers\System\BannerController.php on line 219.
+ 1 APPPATH\Controllers\System\BannerController.php(219): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "path" on array', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\System\\BannerController.php', 219)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')

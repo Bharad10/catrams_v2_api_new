@@ -1,0 +1,57 @@
+CRITICAL - 2023-12-25 12:31:14 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Customer/CustomerMasterController::vendor_Assign"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Customer/CustomerMasterController::vendor_Assign')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('vendor_Assign')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('vendor_Assign')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-25 15:42:46 --> Undefined array key "sitem_serid"
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 561.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(561): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sitem_serid"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 561)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->workcard_unhold()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-25 15:42:56 --> Undefined array key "sitem_hold_flag"
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 537.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(537): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sitem_hold_flag"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 537)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->workcard_unhold()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-25 15:44:22 --> Attempt to read property "sitem_hold_flag" on array
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 537.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(537): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sitem_hold_flag" on array', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 537)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->workcard_unhold()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-25 15:45:32 --> Undefined array key "sitem_serid"
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 562.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(562): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sitem_serid"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 562)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->workcard_unhold()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-25 15:45:39 --> Undefined array key "sitem_serid"
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 562.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(562): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sitem_serid"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 562)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->workcard_unhold()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-25 15:46:01 --> Undefined array key 0
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 562.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(562): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 562)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->workcard_unhold()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

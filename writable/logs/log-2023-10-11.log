@@ -1,0 +1,84 @@
+CRITICAL - 2023-10-11 08:46:07 --> Too few arguments to function App\Controllers\System\FeatureController::user_role_settings(), 0 passed in C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\System\FeatureController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\FeatureController->user_role_settings()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\FeatureController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-10-11 08:47:05 --> Too few arguments to function App\Controllers\System\FeatureController::user_role_settings(), 0 passed in C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\System\FeatureController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\FeatureController->user_role_settings()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\FeatureController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-10-11 08:47:31 --> Too few arguments to function App\Controllers\System\FeatureController::user_role_settings(), 0 passed in C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\System\FeatureController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\FeatureController->user_role_settings()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\FeatureController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-10-11 08:48:30 --> Too few arguments to function App\Controllers\System\FeatureController::user_role_settings(), 0 passed in C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\System\FeatureController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\FeatureController->user_role_settings()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\FeatureController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-10-11 08:50:15 --> Too few arguments to function App\Controllers\System\FeatureController::user_role_settings(), 0 passed in C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\System\FeatureController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\FeatureController->user_role_settings()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\FeatureController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-10-11 08:56:45 --> Too few arguments to function App\Controllers\System\FeatureController::user_role_settings(), 0 passed in C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\System\FeatureController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\FeatureController->user_role_settings()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\FeatureController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-10-11 09:01:41 --> Too few arguments to function App\Controllers\System\FeatureController::user_role_settings(), 0 passed in C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\System\FeatureController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\FeatureController->user_role_settings()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\FeatureController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-10-11 09:08:25 --> Too few arguments to function App\Controllers\System\FeatureController::user_role_settings(), 0 passed in C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\System\FeatureController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\FeatureController->user_role_settings()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\FeatureController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-10-11 09:12:02 --> Too few arguments to function App\Controllers\System\FeatureController::user_role_settings(), 0 passed in C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\System\FeatureController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\FeatureController->user_role_settings()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\FeatureController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-10-11 09:13:55 --> Too few arguments to function App\Controllers\System\FeatureController::user_role_settings(), 0 passed in C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\System\FeatureController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\FeatureController->user_role_settings()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\FeatureController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-10-11 09:15:39 --> Too few arguments to function App\Controllers\System\FeatureController::user_role_settings(), 0 passed in C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\System\FeatureController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\FeatureController->user_role_settings()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\FeatureController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-10-11 09:17:27 --> Too few arguments to function App\Controllers\System\FeatureController::user_role_settings(), 0 passed in C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\System\FeatureController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\FeatureController->user_role_settings()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\FeatureController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

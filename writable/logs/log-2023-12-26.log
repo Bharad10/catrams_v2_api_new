@@ -1,0 +1,376 @@
+CRITICAL - 2023-12-26 05:09:16 --> Undefined array key 0
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 562.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(562): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 562)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->workcard_unhold()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-26 05:11:21 --> Undefined array key 0
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 562.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(562): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 562)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->workcard_unhold()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-26 12:15:01 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\System/UserRoleController::fetch_user_role_features"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\System/UserRoleController::fetch_user_role_features')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('fetch_user_role_features')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('fetch_user_role_features')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-26 12:18:00 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\System/UserRoleController::fetch_user_role_features"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\System/UserRoleController::fetch_user_role_features')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('fetch_user_role_features')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('fetch_user_role_features')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-12-26 13:05:45 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\System\ToolMasterController.php(78): CodeIgniter\BaseModel->first()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->show('MQ==')
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\System\ToolMasterController.php(78): CodeIgniter\BaseModel->first()
+#6 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->show('MQ==')
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#11 {main}
+CRITICAL - 2023-12-26 13:05:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\System\ToolMasterController.php(78): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->show('MQ==')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-12-26 13:06:18 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\System\ToolMasterController.php(78): CodeIgniter\BaseModel->first()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->show('MQ==')
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\System\ToolMasterController.php(78): CodeIgniter\BaseModel->first()
+#6 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->show('MQ==')
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#11 {main}
+CRITICAL - 2023-12-26 13:06:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\System\ToolMasterController.php(78): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->show('MQ==')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-12-26 13:06:22 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\System\ToolMasterController.php(78): CodeIgniter\BaseModel->first()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->show('MQ==')
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\System\ToolMasterController.php(78): CodeIgniter\BaseModel->first()
+#6 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->show('MQ==')
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#11 {main}
+CRITICAL - 2023-12-26 13:06:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\System\ToolMasterController.php(78): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->show('MQ==')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-12-26 13:07:08 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\System\ToolMasterController.php(78): CodeIgniter\BaseModel->first()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->show('MQ==')
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\System\ToolMasterController.php(78): CodeIgniter\BaseModel->first()
+#6 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->show('MQ==')
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#11 {main}
+CRITICAL - 2023-12-26 13:07:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `customer_master`
+WHERE `cstm_id` = :cstm_id:
+AND `cstm_delete_flag` = :cstm_delete_flag:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\System\ToolMasterController.php(78): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->show('MQ==')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-12-26 13:08:24 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'rams_live_db', 3306, '', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\Auth\PreAuthentication.php(42): CodeIgniter\BaseModel->first()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->user_login()
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\Auth\PreAuthentication.php(42): CodeIgniter\BaseModel->first()
+#6 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->user_login()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#11 {main}
+CRITICAL - 2023-12-26 13:08:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `us_email` = :us_email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth\PreAuthentication.php(42): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->user_login()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-12-26 13:08:44 --> mysqli_sql_exception: Table 'rams_live_db.features_list' doesn't exist in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `feature...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `feature...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `feature...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `feature...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\Auth\PreAuthentication.php(83): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->user_login()
+#6 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#10 {main}
+CRITICAL - 2023-12-26 13:08:44 --> Table 'rams_live_db.features_list' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `features_list`.`ft_id`, `features_list`.`ft_name`, `feature_actions`.`fa_id`, `feature_actions`.`fa_name`
+FROM `feature_role_mapping`
+JOIN `user_roles` ON `user_roles`.`role_id` = `feature_role_mapping`.`frm_role_id`
+JOIN `features_list` ON `features_list`.`ft_id` =`feature_role_mapping`.`frm_feature_id`
+JOIN `feature_actions` ON `feature_actions`.`fa_id`=`feature_role_mapping`.`frm_action_id`
+WHERE `frm_role_id` = :frm_role_id:', [...], false)
+ 2 APPPATH\Controllers\Auth\PreAuthentication.php(83): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->user_login()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-12-26 13:09:28 --> mysqli_sql_exception: Unknown column 'features_list.ft_id' in 'field list' in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `feature...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `feature...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `feature...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `feature...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\Auth\PreAuthentication.php(83): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->user_login()
+#6 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#10 {main}
+CRITICAL - 2023-12-26 13:09:28 --> Unknown column 'features_list.ft_id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `features_list`.`ft_id`, `features_list`.`ft_name`, `feature_actions`.`fa_id`, `feature_actions`.`fa_name`
+FROM `feature_role_mapping`
+JOIN `user_roles` ON `user_roles`.`role_id` = `feature_role_mapping`.`frm_role_id`
+JOIN `feature_list` ON `feature_list`.`ft_id` =`feature_role_mapping`.`frm_feature_id`
+JOIN `feature_actions` ON `feature_actions`.`fa_id`=`feature_role_mapping`.`frm_action_id`
+WHERE `frm_role_id` = :frm_role_id:', [...], false)
+ 2 APPPATH\Controllers\Auth\PreAuthentication.php(83): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->user_login()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-12-26 13:10:09 --> mysqli_sql_exception: Unknown column 'feature_role_mapping.frm_action_id' in 'on clause' in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `feature...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `feature...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `feature...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `feature...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\Auth\PreAuthentication.php(83): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->user_login()
+#6 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#10 {main}
+CRITICAL - 2023-12-26 13:10:09 --> Unknown column 'feature_role_mapping.frm_action_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `feature_list`.`ft_id`, `feature_list`.`ft_name`, `feature_actions`.`fa_id`, `feature_actions`.`fa_name`
+FROM `feature_role_mapping`
+JOIN `user_roles` ON `user_roles`.`role_id` = `feature_role_mapping`.`frm_role_id`
+JOIN `feature_list` ON `feature_list`.`ft_id` =`feature_role_mapping`.`frm_feature_id`
+JOIN `feature_actions` ON `feature_actions`.`fa_id`=`feature_role_mapping`.`frm_action_id`
+WHERE `frm_role_id` = :frm_role_id:', [...], false)
+ 2 APPPATH\Controllers\Auth\PreAuthentication.php(83): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->user_login()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-12-26 13:22:07 --> mysqli_sql_exception: Unknown column 'feature_role_mapping.frm_action_id' in 'on clause' in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `feature...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `feature...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `feature...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `feature...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\Auth\PreAuthentication.php(83): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->user_login()
+#6 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#10 {main}
+CRITICAL - 2023-12-26 13:22:07 --> Unknown column 'feature_role_mapping.frm_action_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `feature_list`.`ft_id`, `feature_list`.`ft_name`, `feature_actions`.`fa_id`, `feature_actions`.`fa_name`
+FROM `feature_role_mapping`
+JOIN `user_roles` ON `user_roles`.`role_id` = `feature_role_mapping`.`frm_role_id`
+JOIN `feature_list` ON `feature_list`.`ft_id` =`feature_role_mapping`.`frm_feature_id`
+JOIN `feature_actions` ON `feature_actions`.`fa_id`=`feature_role_mapping`.`frm_action_id`
+WHERE `frm_role_id` = :frm_role_id:', [...], false)
+ 2 APPPATH\Controllers\Auth\PreAuthentication.php(83): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->user_login()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

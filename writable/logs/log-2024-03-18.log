@@ -1,0 +1,157 @@
+CRITICAL - 2024-03-18 14:07:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Customer\CustomerMasterController.php on line 105.
+ 1 APPPATH\Controllers\Customer\CustomerMasterController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Customer\\CustomerMasterController.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Customer\CustomerMasterController->show('dW5kZWZpbmVk')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomerMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-18 14:07:47 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Customer\CustomerMasterController.php on line 105.
+ 1 APPPATH\Controllers\Customer\CustomerMasterController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Customer\\CustomerMasterController.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Customer\CustomerMasterController->show('dW5kZWZpbmVk')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomerMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-18 14:07:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Customer\CustomerMasterController.php on line 105.
+ 1 APPPATH\Controllers\Customer\CustomerMasterController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Customer\\CustomerMasterController.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Customer\CustomerMasterController->show('dW5kZWZpbmVk')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomerMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-18 14:07:51 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Customer\CustomerMasterController.php on line 105.
+ 1 APPPATH\Controllers\Customer\CustomerMasterController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Customer\\CustomerMasterController.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Customer\CustomerMasterController->show('dW5kZWZpbmVk')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomerMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-18 14:07:51 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Customer\CustomerMasterController.php on line 105.
+ 1 APPPATH\Controllers\Customer\CustomerMasterController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Customer\\CustomerMasterController.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Customer\CustomerMasterController->show('dW5kZWZpbmVk')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomerMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-18 14:07:52 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Customer\CustomerMasterController.php on line 105.
+ 1 APPPATH\Controllers\Customer\CustomerMasterController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Customer\\CustomerMasterController.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Customer\CustomerMasterController->show('dW5kZWZpbmVk')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomerMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-18 14:09:11 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Customer\CustomerMasterController.php on line 105.
+ 1 APPPATH\Controllers\Customer\CustomerMasterController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Customer\\CustomerMasterController.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Customer\CustomerMasterController->show('dW5kZWZpbmVk')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomerMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-18 14:09:40 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Customer\CustomerMasterController.php on line 105.
+ 1 APPPATH\Controllers\Customer\CustomerMasterController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Customer\\CustomerMasterController.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Customer\CustomerMasterController->show('dW5kZWZpbmVk')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomerMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-18 14:09:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Customer\CustomerMasterController.php on line 105.
+ 1 APPPATH\Controllers\Customer\CustomerMasterController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Customer\\CustomerMasterController.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Customer\CustomerMasterController->show('dW5kZWZpbmVk')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomerMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-18 14:10:44 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Customer\CustomerMasterController.php on line 105.
+ 1 APPPATH\Controllers\Customer\CustomerMasterController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Customer\\CustomerMasterController.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Customer\CustomerMasterController->show('dW5kZWZpbmVk')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomerMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-18 14:10:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Customer\CustomerMasterController.php on line 105.
+ 1 APPPATH\Controllers\Customer\CustomerMasterController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Customer\\CustomerMasterController.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Customer\CustomerMasterController->show('dW5kZWZpbmVk')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomerMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-03-18 16:22:38 --> mysqli_sql_exception: Unknown column 'desc' in 'order clause' in D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\app\Controllers\Chat\ChatMasterController.php(218): CodeIgniter\BaseModel->findAll()
+#7 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->get_chat_history()
+#8 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+#9 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-loca...')
+#12 {main}
+CRITICAL - 2024-03-18 16:22:38 --> Unknown column 'desc' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `chat_details`
+WHERE `c_customer_id` = :c_customer_id:
+AND `c_staff_id` = :c_staff_id:
+ORDER BY `desc`', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Chat\ChatMasterController.php(218): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->get_chat_history()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-18 16:23:51 --> Undefined array key "c_customer_id"
+in APPPATH\Controllers\Chat\ChatMasterController.php on line 221.
+ 1 APPPATH\Controllers\Chat\ChatMasterController.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "c_customer_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Chat\\ChatMasterController.php', 221)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->get_chat_history()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-03-18 16:24:58 --> mysqli_sql_exception: Unknown column 'cstm_id,c_customer_id' in 'from clause' in D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\app\Controllers\Chat\ChatMasterController.php(220): CodeIgniter\BaseModel->findAll()
+#7 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->get_chat_history()
+#8 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+#9 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-loca...')
+#12 {main}
+CRITICAL - 2024-03-18 16:24:58 --> Unknown column 'cstm_id,c_customer_id' in 'from clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `chat_details`
+LEFT JOIN `customer_master` USING (`cstm_id,c_customer_id`)
+WHERE `c_customer_id` = :c_customer_id:
+AND `c_staff_id` = :c_staff_id:
+ORDER BY `c_id` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Chat\ChatMasterController.php(220): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->get_chat_history()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

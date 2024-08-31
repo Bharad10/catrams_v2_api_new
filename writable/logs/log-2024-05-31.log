@@ -1,0 +1,97 @@
+CRITICAL - 2024-05-31 06:08:57 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-31 06:09:28 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-31 06:09:40 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-31 06:10:13 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-31 06:10:56 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-31 06:15:11 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-31 06:15:11 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-31 06:15:11 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-31 06:15:14 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-31 06:15:23 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-31 06:15:23 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-31 06:15:23 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-31 13:41:36 --> Undefined property: stdClass::$servpack_id
+in APPPATH\Controllers\Status\StatusMasterController.php on line 326.
+ 1 APPPATH\Controllers\Status\StatusMasterController.php(326): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$servpack_id', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Status\\StatusMasterController.php', 326)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Status\StatusMasterController->status_master()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status\StatusMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-05-31 14:22:16 --> mysqli_sql_exception: Unknown column 'cstm_id' in 'on clause' in D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\app\Controllers\Vendor\VendorMasterController.php(1065): CodeIgniter\BaseModel->findAll()
+#7 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->fetch_vendor_details()
+#8 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+#9 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-loca...')
+#12 {main}
+CRITICAL - 2024-05-31 14:22:16 --> Unknown column 'cstm_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `servicerequest_master`
+LEFT JOIN `status_master` ON `sm_id`=`serm_status`
+JOIN `customer_vehicle` ON `custveh_id` =`serm_vehid`
+JOIN `cat_vehicle_data` ON `id`=`custveh_veh_id`
+LEFT JOIN `customer_bank_details` ON `cb_cstm_id`=`cstm_id`
+JOIN `vendor_master` ON `vm_serm_id`=`serm_id`
+WHERE `serm_vendor_flag` = :serm_vendor_flag:
+AND `serm_assigne` = :serm_assigne:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Vendor\VendorMasterController.php(1065): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->fetch_vendor_details()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-05-31 17:42:30 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 1487.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vendor_payment()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

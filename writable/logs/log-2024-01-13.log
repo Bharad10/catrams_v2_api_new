@@ -1,0 +1,93 @@
+CRITICAL - 2024-01-13 09:26:53 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Customer/CustomerMasterController::update_customer_by_mobile"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Customer/CustomerMasterController::update_customer_by_mobile')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('update_customer_by_mobile')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('update_customer_by_mobile')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-13 09:27:09 --> Undefined variable $retarray
+in APPPATH\Controllers\Coupon\CouponMasterController.php on line 482.
+ 1 APPPATH\Controllers\Coupon\CouponMasterController.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $retarray', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Coupon\\CouponMasterController.php', 482)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coupon\CouponMasterController->get_couponsforcustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon\CouponMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-13 09:27:27 --> Undefined variable $retarray
+in APPPATH\Controllers\Coupon\CouponMasterController.php on line 482.
+ 1 APPPATH\Controllers\Coupon\CouponMasterController.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $retarray', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Coupon\\CouponMasterController.php', 482)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coupon\CouponMasterController->get_couponsforcustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon\CouponMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-13 09:27:47 --> Undefined variable $retarray
+in APPPATH\Controllers\Coupon\CouponMasterController.php on line 482.
+ 1 APPPATH\Controllers\Coupon\CouponMasterController.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $retarray', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Coupon\\CouponMasterController.php', 482)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coupon\CouponMasterController->get_couponsforcustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon\CouponMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-13 09:49:04 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(2307): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->damagedtoolreq_updt()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-13 09:49:13 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(2307): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->damagedtoolreq_updt()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-13 10:24:33 --> Undefined variable $retarray
+in APPPATH\Controllers\Coupon\CouponMasterController.php on line 482.
+ 1 APPPATH\Controllers\Coupon\CouponMasterController.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $retarray', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Coupon\\CouponMasterController.php', 482)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coupon\CouponMasterController->get_couponsforcustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon\CouponMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-13 11:40:27 --> Undefined property: stdClass::$servpack_id
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 229.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$servpack_id', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-13 12:23:30 --> Undefined variable $retarray
+in APPPATH\Controllers\Coupon\CouponMasterController.php on line 482.
+ 1 APPPATH\Controllers\Coupon\CouponMasterController.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $retarray', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Coupon\\CouponMasterController.php', 482)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coupon\CouponMasterController->get_couponsforcustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon\CouponMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-13 12:29:15 --> Undefined variable $retarray
+in APPPATH\Controllers\Coupon\CouponMasterController.php on line 482.
+ 1 APPPATH\Controllers\Coupon\CouponMasterController.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $retarray', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Coupon\\CouponMasterController.php', 482)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coupon\CouponMasterController->get_couponsforcustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon\CouponMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-13 12:29:39 --> Undefined variable $retarray
+in APPPATH\Controllers\Coupon\CouponMasterController.php on line 482.
+ 1 APPPATH\Controllers\Coupon\CouponMasterController.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $retarray', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Coupon\\CouponMasterController.php', 482)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Coupon\CouponMasterController->get_couponsforcustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon\CouponMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

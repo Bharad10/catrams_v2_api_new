@@ -1,0 +1,56 @@
+CRITICAL - 2023-12-18 09:00:46 --> Undefined variable $response
+in APPPATH\Controllers\Auth\PreAuthentication.php on line 62.
+ 1 APPPATH\Controllers\Auth\PreAuthentication.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Auth\\PreAuthentication.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\PreAuthentication->user_login()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\PreAuthentication))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-18 09:33:24 --> Undefined array key 0
+in APPPATH\Controllers\DashBoard\DashBoardController.php on line 89.
+ 1 APPPATH\Controllers\DashBoard\DashBoardController.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\DashBoard\\DashBoardController.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DashBoard\DashBoardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard\DashBoardController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-18 09:33:56 --> Undefined array key 0
+in APPPATH\Controllers\DashBoard\DashBoardController.php on line 91.
+ 1 APPPATH\Controllers\DashBoard\DashBoardController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\DashBoard\\DashBoardController.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DashBoard\DashBoardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard\DashBoardController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-18 09:34:10 --> Undefined array key "us_firstname"
+in APPPATH\Controllers\DashBoard\DashBoardController.php on line 91.
+ 1 APPPATH\Controllers\DashBoard\DashBoardController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "us_firstname"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\DashBoard\\DashBoardController.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DashBoard\DashBoardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard\DashBoardController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-18 09:35:54 --> Undefined array key 0
+in APPPATH\Controllers\DashBoard\DashBoardController.php on line 92.
+ 1 APPPATH\Controllers\DashBoard\DashBoardController.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\DashBoard\\DashBoardController.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DashBoard\DashBoardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard\DashBoardController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-18 09:36:09 --> Undefined array key 0
+in APPPATH\Controllers\DashBoard\DashBoardController.php on line 90.
+ 1 APPPATH\Controllers\DashBoard\DashBoardController.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\DashBoard\\DashBoardController.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DashBoard\DashBoardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard\DashBoardController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-12-18 09:38:44 --> Undefined array key 0
+in APPPATH\Controllers\DashBoard\DashBoardController.php on line 83.
+ 1 APPPATH\Controllers\DashBoard\DashBoardController.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\DashBoard\\DashBoardController.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DashBoard\DashBoardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard\DashBoardController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

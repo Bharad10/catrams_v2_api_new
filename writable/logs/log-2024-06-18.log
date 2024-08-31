@@ -1,0 +1,7 @@
+CRITICAL - 2024-06-18 16:51:36 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\System\UsersNotificationController.php on line 397.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\UsersNotificationController->clear_us_notif()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\UsersNotificationController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

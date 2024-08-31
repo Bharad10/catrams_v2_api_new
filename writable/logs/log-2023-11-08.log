@@ -1,0 +1,823 @@
+CRITICAL - 2023-11-08 05:20:19 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Quote/QuoteMasterController::quotedetailsby_requestid"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Quote/QuoteMasterController::quotedetailsby_requestid')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('quotedetailsby_requestid')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('quotedetailsby_requestid')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 05:20:24 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Quote/QuoteMasterController::quotedetailsby_requestid"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Quote/QuoteMasterController::quotedetailsby_requestid')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('quotedetailsby_requestid')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('quotedetailsby_requestid')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 05:28:02 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 269.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 269)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 05:30:39 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 269.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 269)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 05:33:59 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 269.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 269)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 05:48:03 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 285.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 285)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 05:52:16 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 285.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 285)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 05:52:22 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 285.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 285)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 05:52:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 285.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 285)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 05:59:24 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 285.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 285)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 06:01:48 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 285.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 285)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 06:02:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 285.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 285)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 06:07:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 285.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 285)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 06:11:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 285.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 285)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 06:26:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 285.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 285)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 10:43:49 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-11-08 10:43:50 --> Uncaught Error: Class 'Locale' not found in C:\CandourAutoTech\cat_rams_v2_api\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Debug\ExceptionHandler.php(78): CodeIgniter\HTTP\Response->send()
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class 'Locale' not found
+#0 C:\CandourAutoTech\cat_rams_v2_api\spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-08 10:43:59 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-11-08 10:43:59 --> Uncaught Error: Class 'Locale' not found in C:\CandourAutoTech\cat_rams_v2_api\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Debug\ExceptionHandler.php(78): CodeIgniter\HTTP\Response->send()
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class 'Locale' not found
+#0 C:\CandourAutoTech\cat_rams_v2_api\spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-08 10:54:18 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-11-08 10:54:19 --> Uncaught Error: Class 'Locale' not found in C:\CandourAutoTech\cat_rams_v2_api\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Debug\ExceptionHandler.php(78): CodeIgniter\HTTP\Response->send()
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class 'Locale' not found
+#0 C:\CandourAutoTech\cat_rams_v2_api\spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-08 10:55:25 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-11-08 10:55:25 --> Uncaught Error: Class 'Locale' not found in C:\CandourAutoTech\cat_rams_v2_api\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Debug\ExceptionHandler.php(78): CodeIgniter\HTTP\Response->send()
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class 'Locale' not found
+#0 C:\CandourAutoTech\cat_rams_v2_api\spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-08 10:55:54 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-11-08 10:55:54 --> Uncaught Error: Class 'Locale' not found in C:\CandourAutoTech\cat_rams_v2_api\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Debug\ExceptionHandler.php(78): CodeIgniter\HTTP\Response->send()
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class 'Locale' not found
+#0 C:\CandourAutoTech\cat_rams_v2_api\spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-08 10:56:12 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-11-08 10:56:12 --> Uncaught Error: Class 'Locale' not found in C:\CandourAutoTech\cat_rams_v2_api\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Debug\ExceptionHandler.php(78): CodeIgniter\HTTP\Response->send()
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class 'Locale' not found
+#0 C:\CandourAutoTech\cat_rams_v2_api\spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-08 10:42:58 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Quote\QuoteMasterController.php(142): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 10:43:05 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Quote\QuoteMasterController.php(142): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 10:44:14 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 294.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 294)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-11-08 10:53:18 --> mysqli_sql_exception: Column 'qtm_cost' cannot be null in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `qu...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\Quote\QuoteMasterController.php(135): CodeIgniter\Model->insert(Array)
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->create()
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+#10 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#12 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#13 {main}
+CRITICAL - 2023-11-08 10:53:18 --> Column 'qtm_cost' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quote_master` (`qtm_custid`, `qtm_vehid`, `qtm_number`, `qtm_serm_id`, `qtm_cost`, `qtm_created_by`) VALUES (:qtm_custid:, :qtm_vehid:, :qtm_number:, :qtm_serm_id:, :qtm_cost:, :qtm_created_by:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Quote\QuoteMasterController.php(135): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-11-08 10:53:40 --> mysqli_sql_exception: Column 'qtm_cost' cannot be null in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `qu...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\Quote\QuoteMasterController.php(135): CodeIgniter\Model->insert(Array)
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->create()
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+#10 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#12 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#13 {main}
+CRITICAL - 2023-11-08 10:53:40 --> Column 'qtm_cost' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quote_master` (`qtm_custid`, `qtm_vehid`, `qtm_number`, `qtm_serm_id`, `qtm_cost`, `qtm_created_by`) VALUES (:qtm_custid:, :qtm_vehid:, :qtm_number:, :qtm_serm_id:, :qtm_cost:, :qtm_created_by:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Quote\QuoteMasterController.php(135): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 10:54:39 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Quote\QuoteMasterController.php(142): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 10:57:10 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Quote\QuoteMasterController.php(143): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 11:02:07 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Quote\QuoteMasterController.php(146): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 11:03:20 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Quote\QuoteMasterController.php(146): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 11:09:05 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 299.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 11:27:25 --> Undefined variable $resultitem
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 169.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultitem', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 169)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 11:28:09 --> Undefined variable $resultitem
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 169.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultitem', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 169)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 11:37:13 --> Undefined array key "qtm_id"
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 304.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qtm_id"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 304)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 11:37:24 --> Undefined array key "qtm_id"
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 304.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qtm_id"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 304)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 11:37:30 --> Undefined array key "qtm_id"
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 304.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qtm_id"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 304)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 11:37:33 --> Undefined array key "qtm_id"
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 304.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qtm_id"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 304)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 11:37:45 --> Undefined array key "qtm_id"
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 304.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qtm_id"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 304)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 11:39:13 --> Undefined array key "qtm_id"
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 306.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(306): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qtm_id"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 306)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 11:40:05 --> Undefined array key "qtm_id"
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 306.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(306): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qtm_id"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 306)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 11:40:12 --> Undefined array key "qtm_id"
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 306.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(306): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qtm_id"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 306)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 11:40:16 --> Undefined array key "qtm_id"
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 306.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(306): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qtm_id"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 306)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 12:12:06 --> Class "App\Models\Quotation\QuoteDetailsModel" not found
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-11-08 12:15:09 --> mysqli_sql_exception: Unknown column 'sitem_serid' in 'on clause' in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\ServiceRequest\ServiceRequestMasterController.php(84): CodeIgniter\BaseModel->first()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('MQ')
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#12 {main}
+CRITICAL - 2023-11-08 12:15:09 --> Unknown column 'sitem_serid' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `servicerequest_master`
+LEFT JOIN `quote_master` ON `qtm_serm_id`=`sitem_serid`
+JOIN `customer_master` ON `cstm_id`=`serm_custid`
+JOIN `cat_vehicle_data` ON `id`=`serm_vehid`
+JOIN `customer_vehicle` ON `custveh_veh_id`=`serm_vehid`
+WHERE `serm_deleteflag` = :serm_deleteflag:
+AND `serm_id` = :serm_id:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(84): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('MQ')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-11-08 12:15:27 --> mysqli_sql_exception: Unknown column 'sitem_serid' in 'on clause' in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\ServiceRequest\ServiceRequestMasterController.php(84): CodeIgniter\BaseModel->first()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('MQ')
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#12 {main}
+CRITICAL - 2023-11-08 12:15:27 --> Unknown column 'sitem_serid' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `servicerequest_master`
+LEFT JOIN `quote_master` ON `serm_id`=`sitem_serid`
+JOIN `customer_master` ON `cstm_id`=`serm_custid`
+JOIN `cat_vehicle_data` ON `id`=`serm_vehid`
+JOIN `customer_vehicle` ON `custveh_veh_id`=`serm_vehid`
+WHERE `serm_deleteflag` = :serm_deleteflag:
+AND `serm_id` = :serm_id:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(84): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('MQ')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 12:20:39 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 299.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 12:20:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 299.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 12:20:55 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 299.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 12:21:06 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 299.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 12:22:04 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 299.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 12:23:00 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 299.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 12:25:07 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 299.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 12:25:33 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 299.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 12:25:40 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 299.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 12:26:03 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 299.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 12:26:04 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 299.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 12:27:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 299.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 12:27:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 299.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 12:29:25 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 299.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 13:31:11 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Quote\QuoteMasterController.php(147): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 13:36:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Quote\QuoteMasterController.php on line 302.
+ 1 APPPATH\Controllers\Quote\QuoteMasterController.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Quote\\QuoteMasterController.php', 302)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->quotedetailsby_requestid()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-11-08 14:14:33 --> mysqli_sql_exception: Column 'srh_serm_id' cannot be null in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\Status\StatusMasterController.php(175): CodeIgniter\Model->insert(Array)
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Status\StatusMasterController->status_master()
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status\StatusMasterController))
+#10 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#12 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#13 {main}
+CRITICAL - 2023-11-08 14:14:33 --> Column 'srh_serm_id' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `serv_req_history` (`srh_status_id`, `srh_serm_id`) VALUES (:srh_status_id:, :srh_serm_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Status\StatusMasterController.php(175): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Status\StatusMasterController->status_master()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status\StatusMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-11-08 14:16:20 --> mysqli_sql_exception: Column 'srh_serm_id' cannot be null in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\Status\StatusMasterController.php(175): CodeIgniter\Model->insert(Array)
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Status\StatusMasterController->status_master()
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status\StatusMasterController))
+#10 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#12 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#13 {main}
+CRITICAL - 2023-11-08 14:16:20 --> Column 'srh_serm_id' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `serv_req_history` (`srh_status_id`, `srh_serm_id`) VALUES (:srh_status_id:, :srh_serm_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Status\StatusMasterController.php(175): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Status\StatusMasterController->status_master()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status\StatusMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 15:11:12 --> Class "App\Controllers\Status\ServiceRequestItemsModel" not found
+in APPPATH\Controllers\Status\StatusMasterController.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Status\StatusMasterController->status_master()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status\StatusMasterController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 15:23:42 --> Class "App\Controllers\Status\ServiceRequestItemsModel" not found
+in APPPATH\Controllers\Status\StatusMasterController.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Status\StatusMasterController->status_master()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status\StatusMasterController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 15:35:02 --> Class "App\Controllers\Status\ServiceRequestItemsModel" not found
+in APPPATH\Controllers\Status\StatusMasterController.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Status\StatusMasterController->status_master()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status\StatusMasterController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2023-11-08 16:39:29 --> mysqli_sql_exception: Unknown column 'serm_status' in 'on clause' in C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\CandourAutoTech\cat_rams_v2_api\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\CandourAutoTech\cat_rams_v2_api\app\Controllers\ServiceRequest\ServiceRequestMasterController.php(626): CodeIgniter\BaseModel->findAll()
+#7 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->serv_history()
+#8 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+#9 C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\CandourAutoTech\cat_rams_v2_api\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 C:\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoT...')
+#12 {main}
+CRITICAL - 2023-11-08 16:39:29 --> Unknown column 'serm_status' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `serv_req_history`
+JOIN `status_master` ON `sm_id`=`serm_status`
+WHERE `srh_serm_id` = :srh_serm_id :', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(626): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->serv_history()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 18:00:40 --> Undefined property: stdClass::$ser_id
+in APPPATH\Controllers\Status\StatusMasterController.php on line 237.
+ 1 APPPATH\Controllers\Status\StatusMasterController.php(237): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ser_id', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Status\\StatusMasterController.php', 237)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Status\StatusMasterController->status_master()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status\StatusMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 18:02:02 --> Undefined property: stdClass::$serm_id
+in APPPATH\Controllers\Status\StatusMasterController.php on line 224.
+ 1 APPPATH\Controllers\Status\StatusMasterController.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$serm_id', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Status\\StatusMasterController.php', 224)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Status\StatusMasterController->status_master()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status\StatusMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 18:05:24 --> Undefined property: stdClass::$qtm_serm_id
+in APPPATH\Controllers\Status\StatusMasterController.php on line 224.
+ 1 APPPATH\Controllers\Status\StatusMasterController.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$qtm_serm_id', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Status\\StatusMasterController.php', 224)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Status\StatusMasterController->status_master()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status\StatusMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 18:05:46 --> Undefined property: stdClass::$qtm_serm_id
+in APPPATH\Controllers\Status\StatusMasterController.php on line 224.
+ 1 APPPATH\Controllers\Status\StatusMasterController.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$qtm_serm_id', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Status\\StatusMasterController.php', 224)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Status\StatusMasterController->status_master()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status\StatusMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 18:07:53 --> Undefined property: stdClass::$cost
+in APPPATH\Controllers\Status\StatusMasterController.php on line 227.
+ 1 APPPATH\Controllers\Status\StatusMasterController.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$cost', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Status\\StatusMasterController.php', 227)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Status\StatusMasterController->status_master()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status\StatusMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-08 22:44:09 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(257): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->servicestatus_update()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

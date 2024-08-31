@@ -1,0 +1,48 @@
+CRITICAL - 2023-11-22 05:51:18 --> Undefined variable $next_status
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1117.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $next_status', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1117)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->status_master_controller()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-22 09:46:02 --> Undefined array key 0
+in APPPATH\Controllers\Approval\ApprovalmasterControler.php on line 62.
+ 1 APPPATH\Controllers\Approval\ApprovalmasterControler.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Approval\\ApprovalmasterControler.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Approval\ApprovalmasterControler->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approval\ApprovalmasterControler))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-22 09:46:06 --> Undefined array key 0
+in APPPATH\Controllers\Approval\ApprovalmasterControler.php on line 62.
+ 1 APPPATH\Controllers\Approval\ApprovalmasterControler.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Approval\\ApprovalmasterControler.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Approval\ApprovalmasterControler->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approval\ApprovalmasterControler))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-22 09:46:50 --> Undefined array key "tldt_status"
+in APPPATH\Controllers\Approval\ApprovalmasterControler.php on line 57.
+ 1 APPPATH\Controllers\Approval\ApprovalmasterControler.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tldt_status"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Approval\\ApprovalmasterControler.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Approval\ApprovalmasterControler->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approval\ApprovalmasterControler))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-22 09:53:42 --> Undefined variable $tool_req_fetch
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 889.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(889): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tool_req_fetch', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 889)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_details()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-22 11:55:54 --> Undefined variable $tool_req_fetch
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 889.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(889): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tool_req_fetch', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 889)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_details()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

@@ -1,0 +1,58 @@
+CRITICAL - 2024-02-14 05:49:13 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\System\ServiceMasterController.php(155): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\ServiceMasterController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ServiceMasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-02-14 06:12:38 --> Attempt to read property "srm_servpack_id" on array
+in APPPATH\Controllers\System\ServiceMasterController.php on line 244.
+ 1 APPPATH\Controllers\System\ServiceMasterController.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "srm_servpack_id" on array', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\System\\ServiceMasterController.php', 244)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\ServiceMasterController->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ServiceMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-02-14 10:13:56 --> Undefined array key "sitem_type"
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 253.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(253): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sitem_type"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 253)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('Mg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-02-14 10:22:53 --> Undefined array key 0
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 251.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 251)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('Mg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-02-14 10:23:17 --> Undefined array key "sitem_type"
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 245.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sitem_type"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 245)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('Mg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-02-14 10:34:48 --> Undefined array key "sitem_type"
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 245.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sitem_type"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 245)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('Mg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-02-14 10:35:10 --> Undefined array key "sitem_type"
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 245.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sitem_type"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 245)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('Mg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

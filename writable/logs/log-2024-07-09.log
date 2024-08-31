@@ -1,0 +1,18 @@
+CRITICAL - 2024-07-09 14:52:54 --> usort(): Argument #2 ($callback) must be a valid callback, function "compareByDueOrExpectedDays" not found or invalid function name
+in APPPATH\Controllers\ToolRequest\RentDelayCalcController.php on line 74.
+ 1 APPPATH\Controllers\ToolRequest\RentDelayCalcController.php(74): usort([...], 'compareByDueOrExpectedDays')
+ 2 APPPATH\Controllers\DashBoard\DashBoardController.php(69): App\Controllers\ToolRequest\RentDelayCalcController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DashBoard\DashBoardController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard\DashBoardController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-07-09 14:53:15 --> usort(): Argument #2 ($callback) must be a valid callback, function "compareByDueOrExpectedDays" not found or invalid function name
+in APPPATH\Controllers\ToolRequest\RentDelayCalcController.php on line 74.
+ 1 APPPATH\Controllers\ToolRequest\RentDelayCalcController.php(74): usort([...], 'compareByDueOrExpectedDays')
+ 2 APPPATH\Controllers\DashBoard\DashBoardController.php(69): App\Controllers\ToolRequest\RentDelayCalcController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DashBoard\DashBoardController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard\DashBoardController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')

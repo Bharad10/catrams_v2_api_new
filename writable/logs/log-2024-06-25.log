@@ -1,0 +1,8 @@
+CRITICAL - 2024-06-25 11:43:04 --> Undefined array key 0
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 1098.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(1098): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 1098)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->fetch_vendor_details()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')

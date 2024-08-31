@@ -1,0 +1,100 @@
+ERROR - 2024-03-13 11:44:37 --> mysqli_sql_exception: Column 'qtm_ad_charge_cost' cannot be null in D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `qu...', 0)
+#1 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\app\Controllers\Quote\QuoteMasterController.php(231): CodeIgniter\Model->insert(Array)
+#8 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->create()
+#9 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+#10 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-loca...')
+#13 {main}
+CRITICAL - 2024-03-13 11:44:37 --> Column 'qtm_ad_charge_cost' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quote_master` (`qtm_custid`, `qtm_vehid`, `qtm_number`, `qtm_serm_id`, `qtm_cost`, `qtm_ad_type`, `qtm_ad_charge`, `qtm_ad_charge_cost`, `qtm_status_id`, `qtm_created_by`, `qtm_created_on`, `qtm_updated_by`, `qtm_updated_on`) VALUES (:qtm_custid:, :qtm_vehid:, :qtm_number:, :qtm_serm_id:, :qtm_cost:, :qtm_ad_type:, :qtm_ad_charge:, :qtm_ad_charge_cost:, :qtm_status_id:, :qtm_created_by:, :qtm_created_on:, :qtm_updated_by:, :qtm_updated_on:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Quote\QuoteMasterController.php(231): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-03-13 11:44:41 --> mysqli_sql_exception: Column 'qtm_ad_charge_cost' cannot be null in D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `qu...', 0)
+#1 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\app\Controllers\Quote\QuoteMasterController.php(231): CodeIgniter\Model->insert(Array)
+#8 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->create()
+#9 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+#10 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-loca...')
+#13 {main}
+CRITICAL - 2024-03-13 11:44:41 --> Column 'qtm_ad_charge_cost' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quote_master` (`qtm_custid`, `qtm_vehid`, `qtm_number`, `qtm_serm_id`, `qtm_cost`, `qtm_ad_type`, `qtm_ad_charge`, `qtm_ad_charge_cost`, `qtm_status_id`, `qtm_created_by`, `qtm_created_on`, `qtm_updated_by`, `qtm_updated_on`) VALUES (:qtm_custid:, :qtm_vehid:, :qtm_number:, :qtm_serm_id:, :qtm_cost:, :qtm_ad_type:, :qtm_ad_charge:, :qtm_ad_charge_cost:, :qtm_status_id:, :qtm_created_by:, :qtm_created_on:, :qtm_updated_by:, :qtm_updated_on:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Quote\QuoteMasterController.php(231): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-03-13 11:44:46 --> mysqli_sql_exception: Column 'qtm_ad_charge_cost' cannot be null in D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `qu...', 0)
+#1 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\app\Controllers\Quote\QuoteMasterController.php(231): CodeIgniter\Model->insert(Array)
+#8 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->create()
+#9 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+#10 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\RamsAPI-localtestlive\CandourAutoTech\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-loca...')
+#13 {main}
+CRITICAL - 2024-03-13 11:44:46 --> Column 'qtm_ad_charge_cost' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quote_master` (`qtm_custid`, `qtm_vehid`, `qtm_number`, `qtm_serm_id`, `qtm_cost`, `qtm_ad_type`, `qtm_ad_charge`, `qtm_ad_charge_cost`, `qtm_status_id`, `qtm_created_by`, `qtm_created_on`, `qtm_updated_by`, `qtm_updated_on`) VALUES (:qtm_custid:, :qtm_vehid:, :qtm_number:, :qtm_serm_id:, :qtm_cost:, :qtm_ad_type:, :qtm_ad_charge:, :qtm_ad_charge_cost:, :qtm_status_id:, :qtm_created_by:, :qtm_created_on:, :qtm_updated_by:, :qtm_updated_on:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Quote\QuoteMasterController.php(231): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Quote\QuoteMasterController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quote\QuoteMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-13 12:15:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 190.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 190)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->show('Mw==')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-03-13 12:15:20 --> Undefined variable $response
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 1125.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 1125)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->fetch_request_status()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

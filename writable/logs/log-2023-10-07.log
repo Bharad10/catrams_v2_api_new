@@ -1,0 +1,23 @@
+CRITICAL - 2023-10-07 05:33:47 --> Undefined array key "Authorization"
+in APPPATH\Controllers\System\FeatureController.php on line 28.
+ 1 APPPATH\Controllers\System\FeatureController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Authorization"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\System\\FeatureController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\FeatureController->fetch_feature_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\FeatureController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-10-07 05:52:56 --> Undefined array key "Authorization"
+in APPPATH\Controllers\System\FeatureController.php on line 28.
+ 1 APPPATH\Controllers\System\FeatureController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Authorization"', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\System\\FeatureController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\FeatureController->fetch_feature_list()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\FeatureController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-10-07 10:51:04 --> Too few arguments to function App\Controllers\System\FeatureController::user_role_settings(), 0 passed in C:\CandourAutoTech\cat_rams_v2_api\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\System\FeatureController.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\FeatureController->user_role_settings()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\FeatureController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

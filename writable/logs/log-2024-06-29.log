@@ -1,0 +1,63 @@
+CRITICAL - 2024-06-29 17:49:25 --> Call to a member function move() on null
+in APPPATH\Controllers\System\BannerController.php on line 353.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->ban_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-06-29 17:52:13 --> Call to a member function move() on null
+in APPPATH\Controllers\System\BannerController.php on line 353.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->ban_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-06-29 17:53:03 --> Call to a member function move() on null
+in APPPATH\Controllers\System\BannerController.php on line 353.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->ban_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-06-29 17:53:09 --> Call to a member function move() on null
+in APPPATH\Controllers\System\BannerController.php on line 353.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->ban_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-06-29 17:53:15 --> Call to a member function move() on null
+in APPPATH\Controllers\System\BannerController.php on line 353.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->ban_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-06-29 17:53:56 --> Call to a member function move() on null
+in APPPATH\Controllers\System\BannerController.php on line 353.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->ban_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-06-29 17:53:58 --> Call to a member function move() on null
+in APPPATH\Controllers\System\BannerController.php on line 353.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->ban_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-06-29 17:55:38 --> Call to a member function move() on null
+in APPPATH\Controllers\System\BannerController.php on line 353.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->ban_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-06-29 17:57:23 --> Call to a member function move() on null
+in APPPATH\Controllers\System\BannerController.php on line 353.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\BannerController->ban_img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\BannerController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')

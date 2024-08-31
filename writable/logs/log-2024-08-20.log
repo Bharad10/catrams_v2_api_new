@@ -1,0 +1,239 @@
+CRITICAL - 2024-08-20 16:26:02 --> Undefined array key 0
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 1129.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(1129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 1129)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->fetch_vendor_details()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-08-20 16:26:24 --> Undefined array key 0
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 1129.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(1129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 1129)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->fetch_vendor_details()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-08-20 16:27:30 --> Undefined array key 0
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 1129.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(1129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 1129)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->fetch_vendor_details()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-08-20 16:42:13 --> Undefined array key 0
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 1129.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(1129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 1129)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->fetch_vendor_details()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-08-20 16:43:50 --> Undefined array key 0
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 1129.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(1129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 1129)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->fetch_vendor_details()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-08-20 16:45:28 --> Undefined array key 0
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 1129.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(1129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 1129)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->fetch_vendor_details()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-08-20 17:46:54 --> Undefined array key 0
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 1129.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(1129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 1129)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->fetch_vendor_details()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-08-20 18:27:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `servpack_id` = '3'
+ LIMIT 1' at line 4 in D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `service...', 0)
+#1 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `service...')
+#2 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `service...')
+#3 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `service...', Array, false)
+#4 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\app\Controllers\ServiceRequest\ServiceRequestMasterController.php(319): CodeIgniter\BaseModel->first()
+#7 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('NDU')
+#8 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+#9 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#12 {main}
+CRITICAL - 2024-08-20 18:27:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `servpack_id` = '3'
+ LIMIT 1' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `service_request_package`.*, `customer_master`.`cstm_name` as `sitem_assign`
+FROM `service_request_package`
+JOIN `customer_master` ON `customer_master`.`cstm_id`=
+WHERE `servpack_id` = :servpack_id:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(319): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('NDU')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-08-20 18:27:53 --> CodeIgniter\Database\BaseBuilder::join(): Argument #4 ($escape) must be of type ?bool, array given, called in D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Model.php on line 871
+in SYSTEMPATH\Database\BaseBuilder.php on line 617.
+ 1 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->join('customer_master', 'customer_master.cstm_id = ?', 'left', [...])
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(317): CodeIgniter\Model->__call('join', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('NDU')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-08-20 18:28:02 --> CodeIgniter\Database\BaseBuilder::join(): Argument #4 ($escape) must be of type ?bool, array given, called in D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Model.php on line 871
+in SYSTEMPATH\Database\BaseBuilder.php on line 617.
+ 1 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->join('customer_master', 'customer_master.cstm_id = ?', 'left', [...])
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(317): CodeIgniter\Model->__call('join', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('NDU')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-08-20 18:29:31 --> Call to undefined method App\Models\Packages\ServiceRequestPackageModel::bind
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(318): CodeIgniter\Model->__call('bind', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('NDU')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-08-20 18:30:11 --> Call to undefined method App\Models\Packages\ServiceRequestPackageModel::setBindings
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(318): CodeIgniter\Model->__call('setBindings', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('NDU')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-08-20 18:35:13 --> mysqli_sql_exception: Unknown column 'service_request_package.sitem_assignee' in 'on clause' in D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `service...', 0)
+#1 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `service...')
+#2 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `service...')
+#3 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `service...', Array, false)
+#4 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\app\Controllers\ServiceRequest\ServiceRequestMasterController.php(320): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('NDU')
+#6 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+#7 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#10 {main}
+CRITICAL - 2024-08-20 18:35:13 --> Unknown column 'service_request_package.sitem_assignee' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `service_request_package`.*, `customer_master`.`cstm_name` as `sitem_assign`
+FROM `service_request_package`
+LEFT JOIN `customer_master` ON `customer_master`.`cstm_id` = `service_request_package`.`sitem_assignee`
+WHERE `service_request_package`.`servpack_id` = :service_request_package.servpack_id:', [...], false)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(320): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('NDU')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-08-20 18:37:59 --> mysqli_sql_exception: Unknown column 'assignee' in 'where clause' in D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `service...', 0)
+#1 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `service...')
+#2 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `service...')
+#3 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Database\BaseBuilder.php(1748): CodeIgniter\Database\BaseConnection->query('SELECT `service...', Array, false)
+#4 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\app\Controllers\ServiceRequest\ServiceRequestMasterController.php(322): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('NDU')
+#6 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+#7 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#10 {main}
+CRITICAL - 2024-08-20 18:37:59 --> Unknown column 'assignee' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1748): CodeIgniter\Database\BaseConnection->query('SELECT `service_request_package`.*, `customer_master`.`cstm_name` as `sitem_assign`
+FROM `service_request_package`
+LEFT JOIN `customer_master` ON `customer_master`.`cstm_id` = `:assignee`
+WHERE `service_request_package`.`servpack_id` = :service_request_package.servpack_id:
+AND `assignee` = :assignee:', [...], false)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(322): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('NDU')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-08-20 18:43:07 --> mysqli_sql_exception: Unknown column ':assignee' in 'on clause' in D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `service...', 0)
+#1 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `service...')
+#2 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `service...')
+#3 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `service...', Array, false)
+#4 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\app\Controllers\ServiceRequest\ServiceRequestMasterController.php(322): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('NDU')
+#6 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+#7 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\LogicInFeel\CAT RAMS\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#10 {main}
+CRITICAL - 2024-08-20 18:43:07 --> Unknown column ':assignee' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `service_request_package`.*, `customer_master`.`cstm_name` as `sitem_assign`
+FROM `service_request_package`
+LEFT JOIN `customer_master` ON `customer_master`.`cstm_id` = `:assignee`
+WHERE `service_request_package`.`servpack_id` = :service_request_package.servpack_id:
+AND `customer_master`.`cstm_id` = :customer_master.cstm_id:', [...], false)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(322): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('NDU')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-08-20 18:59:23 --> Attempt to read property "sitem_assign" on array
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 324.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sitem_assign" on array', 'D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 324)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('NDU')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-08-20 19:00:52 --> Attempt to read property "sitem_assign" on array
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 325.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(325): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sitem_assign" on array', 'D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 325)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('NDU')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-08-20 19:06:38 --> Attempt to read property "sitem_assign" on array
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 322.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(322): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sitem_assign" on array', 'D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 322)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('NDU')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-08-20 19:08:17 --> Attempt to read property "sitem_assign" on array
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 321.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sitem_assign" on array', 'D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 321)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->show('NDU')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-08-20 23:00:51 --> Undefined property: stdClass::$quantity
+in APPPATH\Controllers\System\ToolMasterController.php on line 303.
+ 1 APPPATH\Controllers\System\ToolMasterController.php(303): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$quantity', 'D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\app\\Controllers\\System\\ToolMasterController.php', 303)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->update_tool_details()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\CAT RAMS\\cat_rams_v2_api\\public\\index.php')

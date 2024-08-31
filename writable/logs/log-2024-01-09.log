@@ -1,0 +1,24 @@
+CRITICAL - 2024-01-09 06:11:47 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 630.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(630): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 630)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vquote_details()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-09 06:12:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 630.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(630): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 630)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vquote_details()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-01-09 07:59:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 73.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

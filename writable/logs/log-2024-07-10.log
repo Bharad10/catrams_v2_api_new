@@ -1,0 +1,32 @@
+CRITICAL - 2024-07-10 10:54:07 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 192.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-10 12:02:26 --> Undefined array key "serm_created_by"
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 2484.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2484): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_created_by"', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 2484)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2420): App\Controllers\ServiceRequest\ServiceRequestMasterController->get_monthly_updates([...])
+ 3 APPPATH\Controllers\DashBoard\DashBoardController.php(53): App\Controllers\ServiceRequest\ServiceRequestMasterController->fetch_dashb_details()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DashBoard\DashBoardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard\DashBoardController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-07-10 12:10:45 --> Attempt to read property "serm_status" on array
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 2498.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2498): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "serm_status" on array', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 2498)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2421): App\Controllers\ServiceRequest\ServiceRequestMasterController->get_cmonthly_updates([...])
+ 3 APPPATH\Controllers\DashBoard\DashBoardController.php(53): App\Controllers\ServiceRequest\ServiceRequestMasterController->fetch_dashb_details()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DashBoard\DashBoardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard\DashBoardController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-07-10 12:13:17 --> Cannot access offset of type string on string
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 2513.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(2421): App\Controllers\ServiceRequest\ServiceRequestMasterController->get_cmonthly_updates([...])
+ 2 APPPATH\Controllers\DashBoard\DashBoardController.php(53): App\Controllers\ServiceRequest\ServiceRequestMasterController->fetch_dashb_details()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DashBoard\DashBoardController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard\DashBoardController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')

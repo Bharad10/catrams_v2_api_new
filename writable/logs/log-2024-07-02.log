@@ -1,0 +1,146 @@
+CRITICAL - 2024-07-02 13:34:58 --> Undefined array key "tldet_id"
+in APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php on line 825.
+ 1 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(825): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tldet_id"', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\ToolRequest\\ToolRequestMasterController.php', 825)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_accept()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-07-02 13:39:34 --> Undefined array key "id"
+in APPPATH\Controllers\System\UsersNotificationController.php on line 354.
+ 1 APPPATH\Controllers\System\UsersNotificationController.php(354): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\System\\UsersNotificationController.php', 354)
+ 2 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(827): App\Controllers\System\UsersNotificationController->create_cust_notification([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_accept()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-07-02 14:24:03 --> Undefined array key "nt_request_type"
+in APPPATH\Controllers\System\UsersNotificationController.php on line 334.
+ 1 APPPATH\Controllers\System\UsersNotificationController.php(334): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nt_request_type"', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\System\\UsersNotificationController.php', 334)
+ 2 APPPATH\Controllers\Order\OrderMasterController.php(1213): App\Controllers\System\UsersNotificationController->create_us_notification([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Order\OrderMasterController->recieve_payment_order()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order\OrderMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-07-02 14:24:38 --> Undefined array key "nt_request_type"
+in APPPATH\Controllers\System\UsersNotificationController.php on line 334.
+ 1 APPPATH\Controllers\System\UsersNotificationController.php(334): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nt_request_type"', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\System\\UsersNotificationController.php', 334)
+ 2 APPPATH\Controllers\Order\OrderMasterController.php(1213): App\Controllers\System\UsersNotificationController->create_us_notification([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Order\OrderMasterController->recieve_payment_order()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order\OrderMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-07-02 14:26:27 --> Undefined variable $custModel
+in APPPATH\Controllers\Order\OrderMasterController.php on line 445.
+ 1 APPPATH\Controllers\Order\OrderMasterController.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $custModel', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\Order\\OrderMasterController.php', 445)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Order\OrderMasterController->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order\OrderMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-07-02 15:02:15 --> Undefined array key "id"
+in APPPATH\Controllers\System\UsersNotificationController.php on line 314.
+ 1 APPPATH\Controllers\System\UsersNotificationController.php(314): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\System\\UsersNotificationController.php', 314)
+ 2 APPPATH\Controllers\Chat\ChatMasterController.php(203): App\Controllers\System\UsersNotificationController->create_us_notification([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-07-02 15:04:21 --> Undefined array key "id"
+in APPPATH\Controllers\System\UsersNotificationController.php on line 314.
+ 1 APPPATH\Controllers\System\UsersNotificationController.php(314): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\System\\UsersNotificationController.php', 314)
+ 2 APPPATH\Controllers\Chat\ChatMasterController.php(202): App\Controllers\System\UsersNotificationController->create_us_notification([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-07-02 15:04:33 --> Undefined variable $ret_res
+in APPPATH\Controllers\Chat\ChatMasterController.php on line 164.
+ 1 APPPATH\Controllers\Chat\ChatMasterController.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ret_res', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\Chat\\ChatMasterController.php', 164)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-07-02 15:04:40 --> Undefined variable $ret_res
+in APPPATH\Controllers\Chat\ChatMasterController.php on line 164.
+ 1 APPPATH\Controllers\Chat\ChatMasterController.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ret_res', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\Chat\\ChatMasterController.php', 164)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-07-02 15:04:53 --> Undefined variable $ret_res
+in APPPATH\Controllers\Chat\ChatMasterController.php on line 164.
+ 1 APPPATH\Controllers\Chat\ChatMasterController.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ret_res', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\Chat\\ChatMasterController.php', 164)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-07-02 15:05:13 --> Undefined variable $ret_res
+in APPPATH\Controllers\Chat\ChatMasterController.php on line 164.
+ 1 APPPATH\Controllers\Chat\ChatMasterController.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ret_res', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\Chat\\ChatMasterController.php', 164)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-07-02 15:08:15 --> Undefined variable $ret_res
+in APPPATH\Controllers\Chat\ChatMasterController.php on line 164.
+ 1 APPPATH\Controllers\Chat\ChatMasterController.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ret_res', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\Chat\\ChatMasterController.php', 164)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-07-02 15:09:17 --> Undefined array key "id"
+in APPPATH\Controllers\System\UsersNotificationController.php on line 314.
+ 1 APPPATH\Controllers\System\UsersNotificationController.php(314): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\System\\UsersNotificationController.php', 314)
+ 2 APPPATH\Controllers\Chat\ChatMasterController.php(202): App\Controllers\System\UsersNotificationController->create_us_notification([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-07-02 15:09:35 --> Undefined array key "id"
+in APPPATH\Controllers\System\UsersNotificationController.php on line 314.
+ 1 APPPATH\Controllers\System\UsersNotificationController.php(314): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\System\\UsersNotificationController.php', 314)
+ 2 APPPATH\Controllers\Chat\ChatMasterController.php(202): App\Controllers\System\UsersNotificationController->create_us_notification([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-07-02 15:11:29 --> Undefined array key "id"
+in APPPATH\Controllers\System\UsersNotificationController.php on line 314.
+ 1 APPPATH\Controllers\System\UsersNotificationController.php(314): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\System\\UsersNotificationController.php', 314)
+ 2 APPPATH\Controllers\Chat\ChatMasterController.php(202): App\Controllers\System\UsersNotificationController->create_us_notification([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-07-02 15:15:09 --> Undefined array key "id"
+in APPPATH\Controllers\System\UsersNotificationController.php on line 314.
+ 1 APPPATH\Controllers\System\UsersNotificationController.php(314): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\System\\UsersNotificationController.php', 314)
+ 2 APPPATH\Controllers\Chat\ChatMasterController.php(203): App\Controllers\System\UsersNotificationController->create_us_notification([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-07-02 15:16:50 --> Undefined array key "id"
+in APPPATH\Controllers\System\UsersNotificationController.php on line 314.
+ 1 APPPATH\Controllers\System\UsersNotificationController.php(314): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\System\\UsersNotificationController.php', 314)
+ 2 APPPATH\Controllers\Chat\ChatMasterController.php(203): App\Controllers\System\UsersNotificationController->create_us_notification([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')

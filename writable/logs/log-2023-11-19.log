@@ -1,0 +1,18 @@
+CRITICAL - 2023-11-19 05:44:53 --> "security" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 576.
+ 1 SYSTEMPATH\Filters\Filters.php(576): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('security')
+ 2 SYSTEMPATH\Filters\Filters.php(260): CodeIgniter\Filters\Filters->processAliasesToClass('after')
+ 3 SYSTEMPATH\Filters\Filters.php(170): CodeIgniter\Filters\Filters->initialize('tool_req_fetch')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('tool_req_fetch', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2023-11-19 05:44:54 --> "security" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 576.
+ 1 SYSTEMPATH\Filters\Filters.php(576): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('security')
+ 2 SYSTEMPATH\Filters\Filters.php(260): CodeIgniter\Filters\Filters->processAliasesToClass('after')
+ 3 SYSTEMPATH\Filters\Filters.php(170): CodeIgniter\Filters\Filters->initialize('dashboard/dashboardcontroller')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('DashBoard/DashBoardController', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

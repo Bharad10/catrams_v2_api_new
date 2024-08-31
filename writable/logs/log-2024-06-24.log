@@ -1,0 +1,8 @@
+CRITICAL - 2024-06-24 16:19:29 --> Undefined property: stdClass::$quantity
+in APPPATH\Controllers\System\ToolMasterController.php on line 287.
+ 1 APPPATH\Controllers\System\ToolMasterController.php(287): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$quantity', 'D:\\RAMS API GIT\\cat_rams_v2_api\\app\\Controllers\\System\\ToolMasterController.php', 287)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->update_tool_details()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')

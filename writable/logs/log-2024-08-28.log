@@ -1,0 +1,351 @@
+CRITICAL - 2024-08-28 01:39:53 --> Undefined variable $nt_id
+in APPPATH\Controllers\System\UsersNotificationController.php on line 362.
+ 1 APPPATH\Controllers\System\UsersNotificationController.php(362): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nt_id', 'D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\app\\Controllers\\System\\UsersNotificationController.php', 362)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1592): App\Controllers\System\UsersNotificationController->create_us_notification([])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->update_assigne()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 01:44:57 --> Undefined variable $nt_id
+in APPPATH\Controllers\System\UsersNotificationController.php on line 362.
+ 1 APPPATH\Controllers\System\UsersNotificationController.php(362): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nt_id', 'D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\app\\Controllers\\System\\UsersNotificationController.php', 362)
+ 2 APPPATH\Controllers\Vendor\VendorMasterController.php(356): App\Controllers\System\UsersNotificationController->create_us_notification([])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 03:29:04 --> Undefined variable $nt_id
+in APPPATH\Controllers\System\UsersNotificationController.php on line 362.
+ 1 APPPATH\Controllers\System\UsersNotificationController.php(362): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nt_id', 'D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\app\\Controllers\\System\\UsersNotificationController.php', 362)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1592): App\Controllers\System\UsersNotificationController->create_us_notification([])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->update_assigne()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 03:31:38 --> Undefined variable $nt_id
+in APPPATH\Controllers\System\UsersNotificationController.php on line 362.
+ 1 APPPATH\Controllers\System\UsersNotificationController.php(362): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nt_id', 'D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\app\\Controllers\\System\\UsersNotificationController.php', 362)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1592): App\Controllers\System\UsersNotificationController->create_us_notification([])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->update_assigne()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+ERROR - 2024-08-28 03:39:47 --> mysqli_sql_exception: Table 'cat_rams.customer_subusers' doesn't exist in D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `cu...', 0)
+#1 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\app\Controllers\Customer\CustomersubUsersController.php(108): CodeIgniter\Model->insert(Array)
+#8 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(919): App\Controllers\Customer\CustomersubUsersController->create()
+#9 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomersubUsersController))
+#10 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\LogicInFeel\Cat Rams Git\cat_rams_v1_api\system\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\...')
+#13 {main}
+CRITICAL - 2024-08-28 03:39:47 --> Table 'cat_rams.customer_subusers' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customer_subusers` (`csub_name`, `csub_email`, `csub_phone`, `csub_custroleId`, `csub_custmasterId`, `csub_password`) VALUES (:csub_name:, :csub_email:, :csub_phone:, :csub_custroleId:, :csub_custmasterId:, :csub_password:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Customer\CustomersubUsersController.php(108): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Customer\CustomersubUsersController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomersubUsersController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 03:49:50 --> Undefined variable $nt_id
+in APPPATH\Controllers\System\UsersNotificationController.php on line 361.
+ 1 APPPATH\Controllers\System\UsersNotificationController.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nt_id', 'D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\app\\Controllers\\System\\UsersNotificationController.php', 361)
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1591): App\Controllers\System\UsersNotificationController->create_us_notification([])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->update_assigne()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 03:59:50 --> Undefined variable $ret
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 1642.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1642): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ret', 'D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 1642)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->update_assigne()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 04:01:50 --> insertBatch() has no data.
+in SYSTEMPATH\Database\BaseBuilder.php on line 1771.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2191): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 2 SYSTEMPATH\Model.php(353): CodeIgniter\Database\BaseBuilder->insertBatch([], null, 100)
+ 3 SYSTEMPATH\BaseModel.php(880): CodeIgniter\Model->doInsertBatch([], null, 100, false)
+ 4 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1605): CodeIgniter\BaseModel->insertBatch([])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->update_assigne()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 04:05:55 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Customer/CustomersubUsersController::get_customersubUsers"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Customer/CustomersubUsersController::get_customersubUsers')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('get_customersubUsers')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('get_customersubUsers')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 04:07:43 --> Undefined array key "Authorization"
+in APPPATH\Controllers\Customer\CustomersubUsersController.php on line 151.
+ 1 APPPATH\Controllers\Customer\CustomersubUsersController.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Authorization"', 'D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\app\\Controllers\\Customer\\CustomersubUsersController.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Customer\CustomersubUsersController->get_customersubUsers()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomersubUsersController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 04:08:11 --> Undefined array key "Authorization"
+in APPPATH\Controllers\Customer\CustomersubUsersController.php on line 151.
+ 1 APPPATH\Controllers\Customer\CustomersubUsersController.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Authorization"', 'D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\app\\Controllers\\Customer\\CustomersubUsersController.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Customer\CustomersubUsersController->get_customersubUsers()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomersubUsersController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 04:16:01 --> insertBatch() has no data.
+in SYSTEMPATH\Database\BaseBuilder.php on line 1771.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2191): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 2 SYSTEMPATH\Model.php(353): CodeIgniter\Database\BaseBuilder->insertBatch([], null, 100)
+ 3 SYSTEMPATH\BaseModel.php(880): CodeIgniter\Model->doInsertBatch([], null, 100, false)
+ 4 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1605): CodeIgniter\BaseModel->insertBatch([])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->update_assigne()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 04:25:33 --> Undefined variable $nt_id
+in APPPATH\Controllers\System\UsersNotificationController.php on line 361.
+ 1 APPPATH\Controllers\System\UsersNotificationController.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nt_id', 'D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\app\\Controllers\\System\\UsersNotificationController.php', 361)
+ 2 APPPATH\Controllers\Vendor\VendorMasterController.php(356): App\Controllers\System\UsersNotificationController->create_us_notification([])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 04:37:01 --> Undefined variable $result
+in APPPATH\Controllers\Vendor\VendorMasterController.php on line 1779.
+ 1 APPPATH\Controllers\Vendor\VendorMasterController.php(1779): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\app\\Controllers\\Vendor\\VendorMasterController.php', 1779)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Vendor\VendorMasterController->vendor_status_update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor\VendorMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 04:52:26 --> Undefined property: stdClass::$quantity
+in APPPATH\Controllers\System\ToolMasterController.php on line 304.
+ 1 APPPATH\Controllers\System\ToolMasterController.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$quantity', 'D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\app\\Controllers\\System\\ToolMasterController.php', 304)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\System\ToolMasterController->update_tool_details()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\System\ToolMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 17:36:27 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Customer/CustomersubUsersController::subuser_login"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Customer/CustomersubUsersController::subuser_login')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('subuser_login')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('subuser_login')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 17:41:27 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Customer/CustomersubUsersController::subuser_login"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Customer/CustomersubUsersController::subuser_login')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('subuser_login')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('subuser_login')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 17:42:37 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Customer/CustomersubUsersController::subuser_login"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Customer/CustomersubUsersController::subuser_login')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('subuser_login')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('subuser_login')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 17:46:08 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Customer/CustomersubUsersController::subuser_login"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Customer/CustomersubUsersController::subuser_login')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('subuser_login')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('subuser_login')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 17:47:27 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Customer/CustomersubUsersController::subuser_login"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Customer/CustomersubUsersController::subuser_login')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('subuser_login')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('subuser_login')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 17:53:33 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Customer/CustomersubUsersController::subuser_login"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Customer/CustomersubUsersController::subuser_login')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('subuser_login')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('subuser_login')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 17:56:09 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Customer/CustomersubUsersController::subuser_login"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Customer/CustomersubUsersController::subuser_login')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('subuser_login')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('subuser_login')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 18:01:00 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Customer/CustomersubUsersController::subuser_login"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Customer/CustomersubUsersController::subuser_login')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('subuser_login')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('subuser_login')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 18:59:04 --> Wrong number of segments
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 92.
+ 1 APPPATH\Config\Commonutils.php(36): Firebase\JWT\JWT::decode('null', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(2429): Config\Commonutils->decode_jwt_token('null')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->work_card_activity_details()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 18:59:04 --> Wrong number of segments
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 92.
+ 1 APPPATH\Config\Commonutils.php(36): Firebase\JWT\JWT::decode('null', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(933): Config\Commonutils->decode_jwt_token('null')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 18:59:11 --> Wrong number of segments
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 92.
+ 1 APPPATH\Config\Commonutils.php(36): Firebase\JWT\JWT::decode('null', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1087): Config\Commonutils->decode_jwt_token('null')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->service_requestbycustomer()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 18:59:13 --> Wrong number of segments
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 92.
+ 1 APPPATH\Config\Commonutils.php(36): Firebase\JWT\JWT::decode('null', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(2429): Config\Commonutils->decode_jwt_token('null')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->work_card_activity_details()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 18:59:13 --> Wrong number of segments
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 92.
+ 1 APPPATH\Config\Commonutils.php(36): Firebase\JWT\JWT::decode('null', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(933): Config\Commonutils->decode_jwt_token('null')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 18:59:14 --> Wrong number of segments
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 92.
+ 1 APPPATH\Config\Commonutils.php(36): Firebase\JWT\JWT::decode('null', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(1087): Config\Commonutils->decode_jwt_token('null')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->service_requestbycustomer()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 18:59:17 --> Wrong number of segments
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 92.
+ 1 APPPATH\Config\Commonutils.php(36): Firebase\JWT\JWT::decode('null', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(933): Config\Commonutils->decode_jwt_token('null')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 18:59:17 --> Wrong number of segments
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 92.
+ 1 APPPATH\Config\Commonutils.php(36): Firebase\JWT\JWT::decode('null', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1982): Config\Commonutils->decode_jwt_token('null')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 18:59:18 --> Wrong number of segments
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 92.
+ 1 APPPATH\Config\Commonutils.php(36): Firebase\JWT\JWT::decode('null', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(933): Config\Commonutils->decode_jwt_token('null')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 18:59:19 --> Wrong number of segments
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 92.
+ 1 APPPATH\Config\Commonutils.php(36): Firebase\JWT\JWT::decode('null', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(1982): Config\Commonutils->decode_jwt_token('null')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->completed_request()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 18:59:20 --> Wrong number of segments
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 92.
+ 1 APPPATH\Config\Commonutils.php(36): Firebase\JWT\JWT::decode('null', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(2429): Config\Commonutils->decode_jwt_token('null')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->work_card_activity_details()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 18:59:20 --> Wrong number of segments
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 92.
+ 1 APPPATH\Config\Commonutils.php(36): Firebase\JWT\JWT::decode('null', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(933): Config\Commonutils->decode_jwt_token('null')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 19:04:41 --> Wrong number of segments
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 92.
+ 1 APPPATH\Config\Commonutils.php(36): Firebase\JWT\JWT::decode('null', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(2429): Config\Commonutils->decode_jwt_token('null')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->work_card_activity_details()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')
+CRITICAL - 2024-08-28 19:04:41 --> Wrong number of segments
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 92.
+ 1 APPPATH\Config\Commonutils.php(36): Firebase\JWT\JWT::decode('null', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(933): Config\Commonutils->decode_jwt_token('null')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\Cat Rams Git\\cat_rams_v1_api\\public\\index.php')

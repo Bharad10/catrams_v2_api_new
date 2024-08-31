@@ -1,0 +1,8 @@
+CRITICAL - 2024-01-04 14:42:31 --> Undefined variable $data
+in APPPATH\Controllers\WorkCard\WorkCardMasterController.php on line 604.
+ 1 APPPATH\Controllers\WorkCard\WorkCardMasterController.php(604): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\WorkCard\\WorkCardMasterController.php', 604)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\WorkCard\WorkCardMasterController->workcard_unhold()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkCard\WorkCardMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

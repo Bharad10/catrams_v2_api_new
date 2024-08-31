@@ -1,0 +1,25 @@
+CRITICAL - 2024-02-09 05:19:21 --> Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 136.
+ 1 APPPATH\Config\Commonutils.php(30): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJEaWdpdGFsIFNlcnZpY2UiLCJhdWQiOiJjdXN0b21lciIsInN1YiI6IkN1c3RvbWVyIHZlcmlmaWNhdGlvbiIsImlhdCI6MTcwNzM5OTg5NCwidWlkIjoiMSJ9.gcX-3rcWXZv3xWEwRJwL8tOZkG_2Ier9cSYkD8LTZlc', Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\ToolRequest\ToolRequestMasterController.php(691): Config\Commonutils->decode_jwt_token('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJEaWdpdGFsIFNlcnZpY2UiLCJhdWQiOiJjdXN0b21lciIsInN1YiI6IkN1c3RvbWVyIHZlcmlmaWNhdGlvbiIsImlhdCI6MTcwNzM5OTg5NCwidWlkIjoiMSJ9.gcX-3rcWXZv3xWEwRJwL8tOZkG_2Ier9cSYkD8LTZlc')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ToolRequest\ToolRequestMasterController->tool_req_list()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ToolRequest\ToolRequestMasterController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-02-09 06:34:56 --> Undefined variable $cust_info
+in APPPATH\Controllers\Customer\CustomerMasterController.php on line 103.
+ 1 APPPATH\Controllers\Customer\CustomerMasterController.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cust_info', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Customer\\CustomerMasterController.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Customer\CustomerMasterController->show('NTc')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomerMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-02-09 06:37:08 --> Undefined variable $cust_info
+in APPPATH\Controllers\Customer\CustomerMasterController.php on line 101.
+ 1 APPPATH\Controllers\Customer\CustomerMasterController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cust_info', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Customer\\CustomerMasterController.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Customer\CustomerMasterController->show('NTc')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomerMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

@@ -1,0 +1,252 @@
+CRITICAL - 2024-08-30 12:12:05 --> Class "Firebase\JWT\JWT" not found
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('get_userdet', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:12:05 --> Class "Firebase\JWT\JWT" not found
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('System/UsersNotificationController', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:12:05 --> Class "Firebase\JWT\JWT" not found
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('ServiceRequest/ServiceRequestMasterController/MTIx', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:12:09 --> Class "Firebase\JWT\JWT" not found
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('DashBoard/DashBoardController', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:12:09 --> Class "Firebase\JWT\JWT" not found
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('check_reopen_workcard', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:12:13 --> Class "Firebase\JWT\JWT" not found
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('get_userdet', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:12:13 --> Class "Firebase\JWT\JWT" not found
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('System/UsersNotificationController', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:12:14 --> Class "Firebase\JWT\JWT" not found
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('DashBoard/DashBoardController', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:12:14 --> Class "Firebase\JWT\JWT" not found
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('check_reopen_workcard', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:12:24 --> Class "Firebase\JWT\JWT" not found
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('get_userdet', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:12:24 --> Class "Firebase\JWT\JWT" not found
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('System/UsersNotificationController', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:12:24 --> Class "Firebase\JWT\JWT" not found
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('DashBoard/DashBoardController', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:12:24 --> Class "Firebase\JWT\JWT" not found
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('check_reopen_workcard', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:14:13 --> Class "Firebase\JWT\JWT" not found
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('get_userdet', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:20:23 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('get_userdet', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:20:41 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('get_userdet', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:20:56 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('get_userdet', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:20:56 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('System/UsersNotificationController', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:20:56 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('DashBoard/DashBoardController', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:20:56 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('check_reopen_workcard', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:22:08 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('get_userdet', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:23:30 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('get_userdet', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:25:45 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('get_userdet', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:26:48 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('get_userdet', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:26:56 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('get_userdet', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:26:57 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('System/UsersNotificationController', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:26:57 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('DashBoard/DashBoardController', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:26:57 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('check_reopen_workcard', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:27:02 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('us_logout', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:27:04 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('us_logout', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:27:11 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('us_logout', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:27:48 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('get_userdet', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:27:48 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('System/UsersNotificationController', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:27:48 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('DashBoard/DashBoardController', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:27:48 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('check_reopen_workcard', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')
+CRITICAL - 2024-08-30 12:29:53 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Filters\AuthFilter.php on line 50.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('get_userdet', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\LogicInFeel\\catrams_api_composer\\catrams_v2_api_new\\public\\index.php')

@@ -1,0 +1,8 @@
+CRITICAL - 2024-06-04 12:13:34 --> Undefined array key "serm_id"
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 132.
+ 1 APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serm_id"', 'D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\ServiceRequest\\ServiceRequestMasterController.php', 132)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ServiceRequest\ServiceRequestMasterController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRequest\ServiceRequestMasterController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RamsAPI-localtestlive\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

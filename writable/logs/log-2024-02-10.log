@@ -1,0 +1,16 @@
+CRITICAL - 2024-02-10 10:53:11 --> Attempt to read property "cp_id" on array
+in APPPATH\Controllers\Customer\CustomerSettingsController.php on line 55.
+ 1 APPPATH\Controllers\Customer\CustomerSettingsController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cp_id" on array', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Customer\\CustomerSettingsController.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Customer\CustomerSettingsController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomerSettingsController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-02-10 10:53:37 --> Undefined variable $cust_list2
+in APPPATH\Controllers\Customer\CustomerSettingsController.php on line 65.
+ 1 APPPATH\Controllers\Customer\CustomerSettingsController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cust_list2', 'C:\\CandourAutoTech\\cat_rams_v2_api\\app\\Controllers\\Customer\\CustomerSettingsController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Customer\CustomerSettingsController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer\CustomerSettingsController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\CandourAutoTech\\cat_rams_v2_api\\public\\index.php')

@@ -1,0 +1,111 @@
+CRITICAL - 2024-06-20 04:10:26 --> syntax error, unexpected variable "$quote_data"
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 110.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('ServiceRequest/ServiceRequestMasterController', 'options')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('ServiceRequest/ServiceRequestMasterController')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('ServiceRequest/ServiceRequestMasterController')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-06-20 04:10:32 --> syntax error, unexpected variable "$quote_data"
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 110.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('ServiceRequest/ServiceRequestMasterController', 'options')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('ServiceRequest/ServiceRequestMasterController')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('ServiceRequest/ServiceRequestMasterController')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+CRITICAL - 2024-06-20 04:10:38 --> syntax error, unexpected variable "$quote_data"
+in APPPATH\Controllers\ServiceRequest\ServiceRequestMasterController.php on line 110.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('ServiceRequest/ServiceRequestMasterController', 'options')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('ServiceRequest/ServiceRequestMasterController')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('ServiceRequest/ServiceRequestMasterController')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-06-20 13:53:55 --> mysqli_sql_exception: Column 'nt_destid' cannot be null in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `no...', 0)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `no...')
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `no...')
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `no...', Array, false)
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\Chat\ChatMasterController.php(171): CodeIgniter\Model->insert(Array)
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->create()
+#9 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+#10 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#13 {main}
+CRITICAL - 2024-06-20 13:53:55 --> Column 'nt_destid' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `notification_master` (`nt_sourceid`, `nt_destid`, `nt_header`, `nt_content`, `nt_sourcetype`, `nt_created_on`, `nt_type`) VALUES (:nt_sourceid:, :nt_destid:, :nt_header:, :nt_content:, :nt_sourcetype:, :nt_created_on:, :nt_type:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Chat\ChatMasterController.php(171): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-06-20 13:54:31 --> mysqli_sql_exception: Column 'nt_destid' cannot be null in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `no...', 0)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `no...')
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `no...')
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `no...', Array, false)
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\Chat\ChatMasterController.php(171): CodeIgniter\Model->insert(Array)
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->create()
+#9 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+#10 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#13 {main}
+CRITICAL - 2024-06-20 13:54:31 --> Column 'nt_destid' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `notification_master` (`nt_sourceid`, `nt_destid`, `nt_header`, `nt_content`, `nt_sourcetype`, `nt_created_on`, `nt_type`) VALUES (:nt_sourceid:, :nt_destid:, :nt_header:, :nt_content:, :nt_sourcetype:, :nt_created_on:, :nt_type:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Chat\ChatMasterController.php(171): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
+ERROR - 2024-06-20 14:41:39 --> mysqli_sql_exception: Column 'nt_destid' cannot be null in D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\RAMS API GIT\cat_rams_v2_api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `no...', 0)
+#1 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `no...')
+#2 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `no...')
+#3 D:\RAMS API GIT\cat_rams_v2_api\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `no...', Array, false)
+#4 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\RAMS API GIT\cat_rams_v2_api\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\RAMS API GIT\cat_rams_v2_api\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\RAMS API GIT\cat_rams_v2_api\app\Controllers\Chat\ChatMasterController.php(171): CodeIgniter\Model->insert(Array)
+#8 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->create()
+#9 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+#10 D:\RAMS API GIT\cat_rams_v2_api\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\RAMS API GIT\cat_rams_v2_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\RAMS API GIT\cat_rams_v2_api\system\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT...')
+#13 {main}
+CRITICAL - 2024-06-20 14:41:39 --> Column 'nt_destid' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `notification_master` (`nt_sourceid`, `nt_destid`, `nt_header`, `nt_content`, `nt_sourcetype`, `nt_created_on`, `nt_type`) VALUES (:nt_sourceid:, :nt_destid:, :nt_header:, :nt_content:, :nt_sourcetype:, :nt_created_on:, :nt_type:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Chat\ChatMasterController.php(171): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Chat\ChatMasterController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat\ChatMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\RAMS API GIT\\cat_rams_v2_api\\public\\index.php')
